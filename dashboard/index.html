@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Telegram AI Bot — Dashboard</title>
+  <style>
+    :root {
+      --bg: #0f1117;
+      --surface: #1a1d27;
+      --card: #20243a;
+      --border: #2d3250;
+      --accent: #5b8af5;
+      --accent2: #7c5bf5;
+      --green: #3ecf8e;
+      --red: #f56565;
+      --yellow: #f6ad55;
+      --text: #e2e8f0;
+      --muted: #718096;
+      --radius: 12px;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      min-height: 100vh;
+    }
+
+    /* ── Topbar ── */
+    header {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 16px 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      backdrop-filter: blur(8px);
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 1.1rem;
+      font-weight: 700;
+      letter-spacing: -.3px;
+    }
+
+    .logo svg { width: 32px; height: 32px; }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 4px 12px;
+      border-radius: 999px;
+      font-size: .78rem;
+      font-weight: 600;
+    }
+
+    .badge.online  { background: rgba(62,207,142,.15); color: var(--green); border: 1px solid rgba(62,207,142,.3); }
+    .badge.offline { background: rgba(245,101,101,.15); color: var(--red);   border: 1px solid rgba(245,101,101,.3); }
+    .badge.loading { background: rgba(246,173,85,.15);  color: var(--yellow);border: 1px solid rgba(246,173,85,.3);  }
+
+    .dot {
+      width: 7px; height: 7px;
+      border-radius: 50%;
+      background: currentColor;
+      animation: pulse 1.8s ease-in-out infinite;
+    }
+
+    @keyframes pulse {
+      0%,100% { opacity: 1; }
+      50%      { opacity: .4; }
+    }
+
+    /* ── Layout ── */
+    main {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 32px 24px;
+    }
+
+    h2 {
+      font-size: .75rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: var(--muted);
+      margin-bottom: 16px;
+    }
+
+    /* ── Stats grid ── */
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 16px;
+      margin-bottom: 32px;
+    }
+
+    .stat-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    .stat-label {
+      font-size: .75rem;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: .5px;
+    }
+
+    .stat-value {
+      font-size: 2rem;
+      font-weight: 700;
+      line-height: 1;
+    }
+
+    .stat-value.accent  { color: var(--accent); }
+    .stat-value.green   { color: var(--green); }
+    .stat-value.red     { color: var(--red); }
+    .stat-value.yellow  { color: var(--yellow); }
+
+    .stat-sub {
+      font-size: .75rem;
+      color: var(--muted);
+    }
+
+    /* ── Info cards ── */
+    .info-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+      margin-bottom: 32px;
+    }
+
+    @media (max-width: 640px) { .info-row { grid-template-columns: 1fr; } }
+
+    .info-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 20px;
+    }
+
+    .info-card h3 {
+      font-size: .85rem;
+      color: var(--muted);
+      margin-bottom: 12px;
+      text-transform: uppercase;
+      letter-spacing: .5px;
+    }
+
+    .info-row-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 8px 0;
+      border-bottom: 1px solid var(--border);
+      font-size: .88rem;
+    }
+
+    .info-row-item:last-child { border-bottom: none; }
+
+    .info-row-item .key  { color: var(--muted); }
+    .info-row-item .val  { font-family: monospace; font-size: .82rem; color: var(--accent); }
+
+    /* ── Logs ── */
+    .logs-section { margin-bottom: 32px; }
+
+    .logs-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 12px;
+    }
+
+    .btn {
+      background: transparent;
+      border: 1px solid var(--border);
+      color: var(--text);
+      padding: 6px 14px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: .8rem;
+      transition: background .15s;
+    }
+
+    .btn:hover { background: var(--border); }
+
+    .log-list {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .log-item {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 16px;
+      font-size: .85rem;
+      transition: border-color .2s;
+    }
+
+    .log-item:hover { border-color: var(--accent); }
+
+    .log-meta {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 10px;
+    }
+
+    .log-user {
+      background: rgba(91,138,245,.15);
+      color: var(--accent);
+      border-radius: 6px;
+      padding: 2px 8px;
+      font-size: .75rem;
+      font-weight: 600;
+    }
+
+    .log-time {
+      color: var(--muted);
+      font-size: .75rem;
+    }
+
+    .log-q {
+      color: var(--text);
+      margin-bottom: 8px;
+      line-height: 1.5;
+      padding-left: 8px;
+      border-left: 3px solid var(--accent2);
+    }
+
+    .log-a {
+      color: #a0aec0;
+      line-height: 1.5;
+      padding-left: 8px;
+      border-left: 3px solid var(--green);
+      white-space: pre-wrap;
+    }
+
+    .log-empty {
+      text-align: center;
+      color: var(--muted);
+      padding: 40px;
+      background: var(--card);
+      border: 1px dashed var(--border);
+      border-radius: var(--radius);
+    }
+
+    /* ── Footer ── */
+    footer {
+      text-align: center;
+      color: var(--muted);
+      font-size: .75rem;
+      padding: 24px;
+      border-top: 1px solid var(--border);
+    }
+
+    /* ── Refresh indicator ── */
+    .refresh-indicator {
+      font-size: .72rem;
+      color: var(--muted);
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .spin {
+      width: 10px; height: 10px;
+      border: 2px solid var(--muted);
+      border-top-color: var(--accent);
+      border-radius: 50%;
+      animation: spin .8s linear infinite;
+      display: none;
+    }
+
+    .spin.active { display: block; }
+
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    /* ── Progress bar ── */
+    .refresh-bar {
+      height: 2px;
+      background: var(--border);
+      border-radius: 999px;
+      overflow: hidden;
+      margin-top: 4px;
+    }
+
+    .refresh-bar-fill {
+      height: 100%;
+      background: linear-gradient(90deg, var(--accent), var(--accent2));
+      border-radius: 999px;
+      transition: width .5s linear;
+    }
+
+    /* ── Model chip ── */
+    .model-chip {
+      background: rgba(124,91,245,.15);
+      color: var(--accent2);
+      border: 1px solid rgba(124,91,245,.3);
+      border-radius: 6px;
+      padding: 2px 10px;
+      font-size: .78rem;
+      font-family: monospace;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo">
+    <!-- Telegram icon -->
+    <svg viewBox="0 0 48 48" fill="none">
+      <circle cx="24" cy="24" r="24" fill="#5B8AF5"/>
+      <path d="M10.5 23.5l22-9c1-.4 1.9.2 1.6 1.5l-3.7 17.4c-.3 1.3-1.1 1.6-2.2.9l-6-4.4-2.9 2.8c-.3.3-.6.5-1.2.5l.4-6.1 10.8-9.7c.5-.4 0-.6-.7-.2L14.8 26.8l-5.8-1.8c-1.3-.4-1.3-1.3.5-2z" fill="white"/>
+    </svg>
+    Telegram AI Bot Dashboard
+  </div>
+
+  <div style="display:flex;align-items:center;gap:16px;">
+    <div class="refresh-indicator">
+      <div class="spin" id="spinner"></div>
+      <span id="refresh-countdown">Atualizando em 10s</span>
+    </div>
+    <div id="bot-badge" class="badge loading">
+      <div class="dot"></div>
+      <span>Conectando...</span>
+    </div>
+  </div>
+</header>
+
+<main>
+  <!-- Stats -->
+  <h2>Visão Geral</h2>
+  <div class="stats-grid">
+    <div class="stat-card">
+      <div class="stat-label">Mensagens recebidas</div>
+      <div class="stat-value accent" id="stat-received">—</div>
+      <div class="stat-sub">total desde o início</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-label">Respostas enviadas</div>
+      <div class="stat-value green" id="stat-sent">—</div>
+      <div class="stat-sub">pela IA local</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-label">Erros</div>
+      <div class="stat-value red" id="stat-errors">—</div>
+      <div class="stat-sub">falhas ao responder</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-label">Uptime</div>
+      <div class="stat-value yellow" id="stat-uptime">—</div>
+      <div class="stat-sub">desde o último restart</div>
+    </div>
+  </div>
+
+  <!-- Info -->
+  <div class="info-row">
+    <div class="info-card">
+      <h3>Bot</h3>
+      <div class="info-row-item">
+        <span class="key">Nome</span>
+        <span class="val" id="info-bot-name">—</span>
+      </div>
+      <div class="info-row-item">
+        <span class="key">Status</span>
+        <span id="info-bot-status">—</span>
+      </div>
+      <div class="info-row-item">
+        <span class="key">Taxa de resposta</span>
+        <span class="val" id="info-rate">—</span>
+      </div>
+    </div>
+
+    <div class="info-card">
+      <h3>Ollama / IA Local</h3>
+      <div class="info-row-item">
+        <span class="key">Status</span>
+        <span id="info-ollama-status">—</span>
+      </div>
+      <div class="info-row-item">
+        <span class="key">Modelo ativo</span>
+        <span id="info-model">—</span>
+      </div>
+      <div class="info-row-item">
+        <span class="key">Endpoint</span>
+        <span class="val" id="info-url">—</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Logs -->
+  <div class="logs-section">
+    <div class="logs-header">
+      <h2 style="margin:0">Últimas Interações</h2>
+      <button class="btn" onclick="loadData()">↻ Atualizar agora</button>
+    </div>
+    <div class="refresh-bar">
+      <div class="refresh-bar-fill" id="progress-bar" style="width:100%"></div>
+    </div>
+    <br/>
+    <div class="log-list" id="log-list">
+      <div class="log-empty">Carregando interações...</div>
+    </div>
+  </div>
+</main>
+
+<footer>
+  Telegram AI Bot &nbsp;·&nbsp; Powered by Ollama &nbsp;·&nbsp;
+  Dashboard atualiza a cada 10 segundos
+</footer>
+
+<script>
+  const API_BASE = '';  // proxy via nginx → /api/
+  let refreshTimer = null;
+  let countdownInterval = null;
+  let countdown = 10;
+
+  function formatUptime(seconds) {
+    const h = Math.floor(seconds / 3600);
+    const m = Math.floor((seconds % 3600) / 60);
+    const s = seconds % 60;
+    if (h > 0) return `${h}h ${m}m`;
+    if (m > 0) return `${m}m ${s}s`;
+    return `${s}s`;
+  }
+
+  function formatTime(iso) {
+    try {
+      const d = new Date(iso);
+      return d.toLocaleTimeString('pt-BR', { hour: '2-digit', minute: '2-digit', second: '2-digit' });
+    } catch { return iso; }
+  }
+
+  function setBotBadge(online) {
+    const badge = document.getElementById('bot-badge');
+    badge.className = `badge ${online ? 'online' : 'offline'}`;
+    badge.innerHTML = `<div class="dot"></div><span>${online ? 'Online' : 'Offline'}</span>`;
+  }
+
+  function statusBadge(online) {
+    return online
+      ? `<span class="badge online" style="font-size:.75rem"><div class="dot"></div>Online</span>`
+      : `<span class="badge offline" style="font-size:.75rem"><div class="dot"></div>Offline</span>`;
+  }
+
+  async function loadStatus() {
+    const res = await fetch('/api/status');
+    if (!res.ok) throw new Error('status endpoint error');
+    return res.json();
+  }
+
+  async function loadLogs() {
+    const res = await fetch('/api/logs');
+    if (!res.ok) throw new Error('logs endpoint error');
+    return res.json();
+  }
+
+  function renderLogs(logs) {
+    const container = document.getElementById('log-list');
+    if (!logs.length) {
+      container.innerHTML = '<div class="log-empty">Nenhuma interação registrada ainda.</div>';
+      return;
+    }
+    container.innerHTML = logs.map(l => `
+      <div class="log-item">
+        <div class="log-meta">
+          <span class="log-user">@${l.user}</span>
+          <span class="log-time">${formatTime(l.timestamp)}</span>
+        </div>
+        <div class="log-q">❓ ${escHtml(l.question)}</div>
+        <div class="log-a">🤖 ${escHtml(l.answer)}</div>
+      </div>
+    `).join('');
+  }
+
+  function escHtml(str) {
+    return str.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+  }
+
+  async function loadData() {
+    const spinner = document.getElementById('spinner');
+    spinner.classList.add('active');
+    resetCountdown();
+
+    try {
+      const [status, logs] = await Promise.all([loadStatus(), loadLogs()]);
+
+      // Stats
+      document.getElementById('stat-received').textContent = status.stats.messages_received;
+      document.getElementById('stat-sent').textContent      = status.stats.responses_sent;
+      document.getElementById('stat-errors').textContent    = status.stats.errors;
+      document.getElementById('stat-uptime').textContent    = formatUptime(status.uptime_seconds);
+
+      // Bot info
+      document.getElementById('info-bot-name').textContent = status.bot;
+      document.getElementById('info-bot-status').innerHTML  = statusBadge(status.online);
+      const rate = status.stats.messages_received > 0
+        ? ((status.stats.responses_sent / status.stats.messages_received) * 100).toFixed(1) + '%'
+        : '—';
+      document.getElementById('info-rate').textContent = rate;
+
+      // Ollama info
+      document.getElementById('info-ollama-status').innerHTML = statusBadge(status.ollama.online);
+      document.getElementById('info-model').innerHTML = `<span class="model-chip">${status.model}</span>`;
+      document.getElementById('info-url').textContent = status.ollama_url;
+
+      // Badge geral
+      setBotBadge(status.online);
+
+      // Logs
+      renderLogs(logs);
+
+    } catch (err) {
+      console.error('Erro ao buscar dados:', err);
+      setBotBadge(false);
+      document.getElementById('log-list').innerHTML =
+        '<div class="log-empty">⚠️ Não foi possível conectar à API do bot.</div>';
+    } finally {
+      spinner.classList.remove('active');
+    }
+  }
+
+  // ── Countdown ──
+  function resetCountdown() {
+    countdown = 10;
+    document.getElementById('progress-bar').style.width = '100%';
+    document.getElementById('refresh-countdown').textContent = `Atualizando em ${countdown}s`;
+  }
+
+  function startCountdown() {
+    clearInterval(countdownInterval);
+    countdownInterval = setInterval(() => {
+      countdown--;
+      const pct = (countdown / 10) * 100;
+      document.getElementById('progress-bar').style.width = pct + '%';
+      document.getElementById('refresh-countdown').textContent = `Atualizando em ${countdown}s`;
+      if (countdown <= 0) {
+        clearInterval(countdownInterval);
+      }
+    }, 1000);
+  }
+
+  // ── Auto-refresh a cada 10s ──
+  function startAutoRefresh() {
+    clearInterval(refreshTimer);
+    refreshTimer = setInterval(() => {
+      loadData();
+      startCountdown();
+    }, 10000);
+  }
+
+  // Init
+  loadData();
+  startCountdown();
+  startAutoRefresh();
+</script>
+</body>
+</html>
