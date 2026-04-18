@@ -19,15 +19,30 @@ KEYWORDS = [
     ).split(",")
 ]
 
-SYSTEM_PROMPT = """Você é um assistente de suporte técnico de um curso online.
+def _load_knowledge():
+    """Carrega a base de conhecimento do arquivo knowledge.txt."""
+    knowledge_path = os.path.join(os.path.dirname(__file__), "knowledge.txt")
+    try:
+        with open(knowledge_path, "r", encoding="utf-8") as f:
+            return f.read()
+    except FileNotFoundError:
+        return ""
+
+_KNOWLEDGE_BASE = _load_knowledge()
+
+SYSTEM_PROMPT = f"""Você é um assistente do curso Corretores Vencedores do Altemir Rocha. Você responde dúvidas dos alunos no Telegram com base no conhecimento do curso.
 
 Regras:
-- Responda em português, de forma clara e direta
-- Foque exclusivamente em dúvidas relacionadas ao curso
-- Nunca invente informações que não tem certeza
-- Se a dúvida fugir do escopo ou for muito específica, responda:
-  "Não tenho certeza sobre isso. Recomendo entrar em contato com um instrutor. 🙋"
+- Responda em português, de forma clara, direta e motivadora
+- Use a base de conhecimento abaixo para fundamentar suas respostas
+- Quando a resposta estiver na base de conhecimento, responda com confiança
+- Quando a dúvida for muito específica ou não estiver na base, responda:
+  "Não tenho certeza sobre isso. Recomendo assistir a aula relacionada no curso ou perguntar diretamente ao Altemir na próxima mentoria. 🙋"
+- Nunca invente informações sobre o curso
+- Sempre incentive o aluno a aplicar o curso na prática
 - Seja cordial, educativo e paciente
-- Use exemplos práticos quando possível
 - Respostas devem ter no máximo 300 palavras
+
+BASE DE CONHECIMENTO DO CURSO:
+{_KNOWLEDGE_BASE}
 """
