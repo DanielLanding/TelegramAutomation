@@ -16,7 +16,8 @@ from flask import Flask, jsonify
 
 from config import (
     TELEGRAM_TOKEN,
-    OPENAI_API_KEY,
+    GROQ_API_KEY,
+    ALLOWED_GROUP_IDS,
     COOLDOWN_SECONDS,
     KEYWORDS,
     STATUS_PORT,
@@ -46,6 +47,13 @@ conversation_history: dict = defaultdict(list)  # user_id → histórico
 # ──────────────────────────────────────────────
 # Helpers
 # ──────────────────────────────────────────────
+
+def is_allowed_group(chat_id: int) -> bool:
+    """Retorna True se o grupo está na lista de permitidos (ou lista vazia = todos)."""
+    if not ALLOWED_GROUP_IDS:
+        return True
+    return chat_id in ALLOWED_GROUP_IDS
+
 
 def should_respond(text: str, bot_username: str) -> bool:
     """Decide se o bot deve responder a uma mensagem."""
@@ -86,8 +94,16 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
     bot_username = context.bot.username
 
     stats["messages_received"] += 1
+    logger.info("Mensagem de %s | chat=%s (%s) | texto: %s", user_display, message.chat_id, message.chat.type, text[:80])
 
-    if not should_respond(text, bot_username):
+    is_private = message.chat.type == "private"
+
+    if not is_private and not is_allowed_group(message.chat_id):
+        logger.info("Chat %s não está em ALLOWED_GROUP_IDS — ignorando", message.chat_id)
+        return
+
+    if not is_private and not should_respond(text, bot_username):
+        logger.info("Sem keyword/menção na msg de %s — ignorando", user_display)
         return
 
     if is_on_cooldown(user_id):
@@ -156,6 +172,20 @@ async def cmd_status(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(status_text, parse_mode="Markdown")
 
 
+async def cmd_getid(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    chat = update.effective_chat
+    user = update.effective_user
+    await update.message.reply_text(
+        f"🆔 *IDs desta conversa*\n\n"
+        f"Chat ID: `{chat.id}`\n"
+        f"Tipo: `{chat.type}`\n"
+        f"Nome: `{chat.title or chat.first_name}`\n"
+        f"Seu user ID: `{user.id}`\n\n"
+        f"Cole o Chat ID no `.env`:\n`ALLOWED_GROUP_IDS={chat.id}`",
+        parse_mode="Markdown",
+    )
+
+
 async def cmd_clear(update: Update, context: ContextTypes.DEFAULT_TYPE):
     user_id = update.message.from_user.id
     conversation_history[user_id] = []
@@ -202,8 +232,8 @@ def run_flask():
 def main():
     if not TELEGRAM_TOKEN:
         raise ValueError("TELEGRAM_TOKEN não configurado no .env")
-    if not OPENAI_API_KEY:
-        raise ValueError("OPENAI_API_KEY não configurado no .env")
+    if not GROQ_API_KEY:
+        raise ValueError("GROQ_API_KEY não configurado no .env")
 
     # Inicia Flask em thread separada
     flask_thread = threading.Thread(target=run_flask, daemon=True)
@@ -216,6 +246,7 @@ def main():
     app.add_handler(CommandHandler("start", cmd_start))
     app.add_handler(CommandHandler("help", cmd_start))
     app.add_handler(CommandHandler("status", cmd_status))
+    app.add_handler(CommandHandler("getid", cmd_getid))
     app.add_handler(CommandHandler("clear", cmd_clear))
     app.add_handler(
         MessageHandler(filters.TEXT & ~filters.COMMAND, handle_message)

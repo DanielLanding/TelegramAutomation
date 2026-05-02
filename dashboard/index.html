@@ -40,6 +40,7 @@
       position: sticky;
       top: 0;
       z-index: 10;
+      -webkit-backdrop-filter: blur(8px);
       backdrop-filter: blur(8px);
     }
 
@@ -389,18 +390,18 @@
     </div>
 
     <div class="info-card">
-      <h3>Ollama / IA Local</h3>
+      <h3>IA / Provedor</h3>
       <div class="info-row-item">
-        <span class="key">Status</span>
-        <span id="info-ollama-status">—</span>
+        <span class="key">Provedor</span>
+        <span class="val" id="info-provider">—</span>
       </div>
       <div class="info-row-item">
         <span class="key">Modelo ativo</span>
         <span id="info-model">—</span>
       </div>
       <div class="info-row-item">
-        <span class="key">Endpoint</span>
-        <span class="val" id="info-url">—</span>
+        <span class="key">Status</span>
+        <span id="info-ollama-status">—</span>
       </div>
     </div>
   </div>
@@ -516,10 +517,10 @@
         : '—';
       document.getElementById('info-rate').textContent = rate;
 
-      // Ollama info
-      document.getElementById('info-ollama-status').innerHTML = statusBadge(status.ollama.online);
+      // AI provider info
+      document.getElementById('info-provider').textContent = status.provider || '—';
       document.getElementById('info-model').innerHTML = `<span class="model-chip">${status.model}</span>`;
-      document.getElementById('info-url').textContent = status.ollama_url;
+      document.getElementById('info-ollama-status').innerHTML = statusBadge(status.online);
 
       // Badge geral
       setBotBadge(status.online);
