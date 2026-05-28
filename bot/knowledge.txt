@@ -224,6 +224,419 @@ ACESSO À PLATAFORMA DO CURSO — LINK E RECUPERAÇÃO DE SENHA
   3. Acessar novamente com o e-mail usado na compra e a nova senha
 - Não há data de início diferente da data de compra. Quem pergunta sobre "início do curso em determinada data" já tem acesso — é só verificar o e-mail da compra.
 
+MENTORIA MENSAL — DIA E HORÁRIO
+--------------------------------
+- A mentoria mensal acontece toda primeira segunda-feira de cada mês, às 14:00.
+
+ESCRITURA COM CLÁUSULA RESOLUTIVA vs CONTRATO DE COMPRA E VENDA
+----------------------------------------------------------------
+- A escritura com cláusula resolutiva é a melhor solução para vendas parceladas direto com o proprietário — melhor do que o contrato de compra e venda (contrato de gaveta).
+- Por quê o contrato de compra e venda é pior?
+  • Em muitas cidades, não permite transferir IPTU para o comprador — o IPTU fica no nome do vendedor mesmo após a venda.
+  • Se o proprietário falecer, para fazer os herdeiros cumprirem o contrato, pode virar um processo judicial de 15, 20 anos ou mais — sempre alguém sai lesado.
+- Como funciona a escritura com cláusula resolutiva?
+  • Ela é formalizada em cartório (tabelionato), registrada e tem validade legal plena.
+  • Pode ser feita diretamente no tabelionato ou a partir de um contrato de compra e venda já assinado.
+  • O tabelionato gera o ITBI (Imposto de Transmissão de Bens Imóveis), o comprador paga o ITBI, paga o tabelionato e depois paga o registro de imóveis.
+  • Na matrícula, já sai com o nome do adquirente e a cláusula resolutiva registrada. Dentro da escritura ficam: saldo devedor, forma de pagamento, meses, datas, valores, correção — tudo como num contrato normal.
+- Proteção para o vendedor (caso de inadimplência):
+  • Se o comprador não pagar, 15 dias após o atraso o proprietário pode pedir reintegração de posse diretamente no registro de imóveis.
+  • O processo é enviado em caráter de urgência ao juiz e em 30 a 45 dias o bem pode ser retomado.
+  • O comprador recebe de volta os valores pagos, menos a multa determinada pelo juiz (geralmente 5% a 10% do valor pago).
+- Proteção para o comprador (caso de falecimento do vendedor):
+  • Se o vendedor falecer, o comprador segue pagando normalmente e, ao terminar de pagar, apresenta os recibos no registro de imóveis — que encerra a cláusula resolutiva sem precisar de nenhuma ação dos herdeiros.
+- Benefícios práticos:
+  • Permite transferir IPTU, água, luz, condomínio — pois é um documento oficial registrado.
+  • Dá segurança jurídica tanto para quem compra quanto para quem vende.
+  • Cancela a cláusula com todos os recibos de pagamento, sem depender do antigo proprietário.
+- Custos estimados da escritura com cláusula resolutiva (variam por região):
+  • ITBI: geralmente de 1% a 2% sobre o valor atribuído pela Secretaria da Fazenda. Exemplos: São Paulo = 2%, Capão da Canoa = ~0,5%.
+  • Há uma lei em vigor que determina que o ITBI deve incidir sobre o valor real do negócio (e não o valor da Secretaria da Fazenda). Porém, alguns municípios já acataram essa lei e outros não. Verifique na sua comarca. Clientes às vezes têm valor a recuperar por causa disso e não sabem — o suporte jurídico pode ajudar.
+  • Tabelionato: de 0,5% a 1%.
+  • Registro: de 0,5% a 2%.
+  • Total aproximado: 3% a 6% do valor da transação.
+- Cláusula resolutiva em compra na planta (imóvel em lançamento):
+  • Quando o empreendimento ainda não está pronto, não existe matrícula individualizada — por isso não dá para fazer escritura com cláusula resolutiva sobre o imóvel em si.
+  • É possível, no entanto, fazer a escritura com cláusula resolutiva sobre a FRAÇÃO IDEAL do terreno/empreendimento que corresponde ao imóvel comprado.
+  • Problema: nem todo registro de imóveis aceita esse formato para compras na planta. Depende do registrador da comarca.
+  • Solução: antes de propor essa estrutura para o cliente, consulte o registrador da comarca onde o imóvel está localizado.
+- Regra prática: o melhor amigo do corretor para questões legais é o registrador da comarca onde está o imóvel — as regras e a aceitação de determinados formatos variam de cidade para cidade, porque o registrador responde criminalmente por erros e age com base em precedentes locais.
+- Suporte jurídico especializado: a equipe do Altemir oferece suporte jurídico pago para questões como essas (ex: verificar se o município acatou a nova lei do ITBI, calcular se o cliente tem valor a recuperar, montar a estrutura correta para cada caso). Se o aluno ou cliente precisar, pode acionar esse suporte.
+
+CLIENTE QUE DISSE QUE SÓ RETORNA EM DETERMINADA DATA
+------------------------------------------------------
+- Situação: o cliente sinalizou que só voltaria a comprar em uma data futura (ex: agosto), mas surgiu uma oportunidade antes. O corretor mandou mensagem explicando a vantagem e o cliente não respondeu.
+- Diagnóstico do Altemir: quando o cliente fala "só posso resolver isso lá para o final do ano / em agosto / mais pra frente", na grande maioria dos casos ele está olhando com calma — quer ver outras oportunidades e não sabe dizer isso diretamente. Ele teme que o corretor só queira empurrar aquele imóvel e não mostre outras opções.
+- O erro: aguardar a data indicada pelo cliente sem manter a esteira de atendimento ativa.
+- O correto é acompanhar o cliente na esteira de atendimento o tempo todo — assim você descobre que ele compraria antes de agosto, porque vê outras oportunidades e evolui na mentalidade.
+- O que fazer agora com esse cliente que não respondeu:
+  1. Gravar um vídeo selfie no imóvel (ou em um imóvel semelhante que sirva para ele).
+  2. Enviar o vídeo selfie com pressão — mostrando a oportunidade e o que está em jogo.
+  3. Seguir enviando outras possibilidades compatíveis com o perfil dele.
+- Princípio: a esteira de atendimento serve para acelerar a tomada de decisão mostrando outras oportunidades. O cliente "olhando com calma" vai mudando de mentalidade conforme você o acompanha com método. Para isso, você precisa assistir e vivenciar o curso — não dá para aplicar apenas com a dica isolada.
+
+FEELING DO CORRETOR VENCEDOR — "PARA QUEM SERVE", NÃO METRO QUADRADO
+------------------------------------------------------------------------
+- O feeling é a forma como o corretor apresenta o imóvel do ponto de vista de quem vai morar nele — não de metro quadrado, não de dados técnicos.
+- Metro quadrado é linguagem de engenheiro e arquiteto. Apenas 2% dos clientes são arquitetos ou engenheiros. O corretor que fala só de metro quadrado se comunica com 2% das pessoas numa linguagem que 98% não entende.
+- O cliente não tem referência nenhuma de metragem. O mesmo apartamento pode parecer gigante pra um e minúsculo pra outro — porque ele não tem base de comparação.
+- Como aplicar o feeling: comece lá no acesso ao imóvel, descreva o caminho, a rua, a entrada, a rampa, a portaria. Quem vai adorar? Quem tem filho pequeno que faz amizades fáceis? Quem tem dificuldade de dirigir? Quem busca segurança 24h?
+- Exemplo de feeling na prática: "O acesso é por uma rua larga, muito calma. Ideal pra quem tem filho aprendendo a dirigir, ou quem vem cansado do trabalho e não quer estresse no caminho. A rampa de estacionamento é folgada — entra e sai qualquer carro com tranquilidade, sem aquele nervoso de arranhar a frente. O porteiro fica do lado de fora, você pode buzinar se precisar de ajuda. Os dois quartos pegam sol da manhã — quarto seco, quarto arejado, sem mofo. A 150 metros tem o supermercado tal, a 200 metros tem o clube. Esse apartamento é ideal pra quem tem até dois filhos e gosta de fazer coisas a pé."
+- O metro quadrado só entra quando o cliente já gostou de dois ou mais imóveis e precisa comparar — e mesmo assim, só pra ver qual tem sala maior ou quartos maiores.
+- Frase-chave do feeling: "Pra quem é ideal esse imóvel?" — essa pergunta guia toda a apresentação.
+- O feeling não é vivência genérica. É a SUA percepção específica daquele imóvel. Dois corretores levando os mesmos critérios vão fazer apresentações completamente diferentes — e isso é o que torna você insubstituível.
+
+APRESENTAÇÃO PESSOAL — "SE COMPRAR, SE VENDER, DEPOIS VENDER ALGO"
+--------------------------------------------------------------------
+- Você precisa primeiro se comprar, depois se vender, pra depois vender alguma coisa. Não adianta ter o melhor script se você não passa credibilidade ao aparecer.
+- A apresentação pessoal não é só roupa ou marca — é semblante, postura, cabelo, barba, maquiagem sutil. Tudo que faz o cliente, ao olhar pra você, sentir que está diante de uma pessoa confiável e bem-sucedida.
+- Roupa: não precisa ser cara — precisa cair bem e te deixar confortável. Roupa que não te deixa à vontade tira performance. Se você não se sente bem numa peça, não usa.
+- Homens: barba feita ou barba bem desenhada. Nada de barba por fazer. Sapato limpo — passa um pano e está renovado. Sapato com cadarço passa mais respeito quando possível.
+- Mulheres: decotes que não exponham demais (casais clientes — o ciúme da esposa ou do marido pode fazer você perder a venda). Maquiagem suave. Batom discreto. Cabelo arrumado — um coque simples já funciona.
+- Parte intelectual: treinar voz, olhar e argumentação. Tom de voz, expressão corporal e argumentação são itens que somam na venda. Quanto mais itens preenchidos a seu favor, maior a chance de fechar.
+- Princípio: venda é feita de vários itens. Cada detalhe que você deixa de cuidar é um ponto perdido. Não fez vídeo selfie? Perdeu um ponto. Não aplicou o feeling? Perdeu outro. Acumulou descuidos? Chega ao grupo de alunos pedindo ajuda com o atendimento todo destruído.
+
+AS TRÊS PERGUNTAS DO CORRETOR VENCEDOR
+----------------------------------------
+- São três perguntas que devem ser feitas no início do atendimento para entender a motivação real do cliente:
+  1. "O que está motivando você a procurar um apartamento como esse?" (ou "uma casa em condomínio fechado?", etc.)
+  2. "Você já conhece algum semelhante? Tem algum amigo que mora assim, que você possa me dizer como é?" / "Como você imagina esse apartamento?"
+  3. "Tem alguém com a opinião importante para efetivar essa realização?" (identificar quem mais precisa ser convencido — cônjuge, filho, sócio)
+- A terceira pergunta é fundamental: inclua essas pessoas no vídeo selfie e no e-mail. "Compartilha com a fulana, imagina que ela vai adorar."
+- Algo sempre motiva o cliente a procurar imóvel: briga no condomínio, troca de cidade, promoção no emprego, filho nascendo, separação, desejo de upgrade. Você descobre isso com a primeira pergunta — e isso guia toda a argumentação.
+
+VÍDEO SELFIE — COMO FAZER E QUANDO USAR
+-----------------------------------------
+- O vídeo selfie é uma das ferramentas mais poderosas do corretor. Ele tira o cliente do lugar onde ele está e o leva, por segundos, até o imóvel junto com você.
+- Como fazer: vá até o imóvel (ou um semelhante), grave um vídeo curto no celular. Exemplo de roteiro: "Oi, seu fulano, desculpe incomodar o seu WhatsApp novamente, mas eu estava mostrando uma outra casa dessas que você gostou. Olha que lindo o sol batendo no jardim agora, olha que coisa maravilhosa." Vira a câmera para o imóvel, entra rapidinho, depois volta: "Mais uma vez desculpe incomodar, a gente vai se falando, um abração." Desliga e envia.
+- Versão genérica (para reutilizar): grave sem falar o nome do cliente. Exemplo: "Oi, tô aqui agora com essa vista maravilhosa, esse apartamento, e lembrei de você — olha que lindo." Salva e usa para vários clientes sem precisar regravar toda vez.
+- Quando usar: logo no primeiro contato, quando o cliente não responde, quando aparece uma oportunidade nova, quando quer retomar um cliente que esfriou.
+- Por que funciona: o cliente para tudo que está fazendo por segundos e vai com você até aquele jardim ou aquela vista. É encantamento puro. Não subestime esse poder.
+- Vídeo selfie também serve para imóvel semelhante quando o imóvel principal não está disponível.
+
+TOM DE VOZ — COMO USAR NA PRÁTICA
+------------------------------------
+- Tom de voz não é sobre ter uma voz bonita — é sobre controlar o tom para passar a emoção certa no momento certo.
+- Dica prática: fale sorrindo. Abrir os lábios e falar com sorriso muda completamente o tom percebido pelo outro lado — no WhatsApp, em ligação, em vídeo. Tente falar com a boca séria e depois sorrindo — a diferença é óbvia.
+- Tom de voz denuncia postura: se você está deitado, a pessoa do outro lado percebe. Se você está desanimado, ela sente. Se está energizado e sorrindo, ela sente também.
+- Use volume baixo e tom próximo quando quiser criar intimidade ou passar algo importante — instintivamente o ouvinte presta mais atenção.
+- Treine o tom de voz: ouça gravações de si mesmo, busque aulas de dicção e expressão vocal no YouTube, pratique falar com entusiasmo mesmo quando não está animado.
+
+EXPRESSÃO CORPORAL NA NEGOCIAÇÃO
+----------------------------------
+- O corpo espelha a mente — mas você também pode usar o corpo para mudar o estado mental.
+- Para acalmar um cliente nervoso na hora de fechar: recline para trás na cadeira, mãos abertas e suaves sobre a mesa, olhar calmo, respire fundo. Fale devagar: "Senhor fulano, vai dar tudo certo. Se o senhor ainda tiver dúvida, antes de assinar, a gente pode esperar mais uns dias. Fica tranquilo."
+- Para imprimir autoridade ou urgência: incline para frente, ombros abertos, mãos firmes na mesa. Tom de voz muda automaticamente.
+- Dentro do imóvel: caminhe com calma, gesticule com propósito. Evite girar excessivamente, abrir os braços de forma exagerada ou parecer nervoso. Abrir porta com dificuldade passa despreparo — pratique antes.
+- Atenção: a postura "super-homem" (mãos na cintura por dois minutos) pode intimidar de forma errada em negociação — use com cautela.
+
+PRIMEIRO CONTATO POR WHATS — TEXTO OU ÁUDIO
+---------------------------------------------
+- Regra geral: o primeiro contato por WhatsApp deve ser em TEXTO, não em áudio.
+- Por quê? Muitos clientes negociam imóveis sem querer que colegas, funcionários ou sócios saibam. Um áudio em ambiente de trabalho expõe isso. O cliente pode estar num lugar onde não pode ouvir.
+- Se o cliente responder com áudio, continue com áudio. Se ele perceber que você está dirigindo, áudio é melhor que texto. Siga o ritmo do cliente.
+- Após o primeiro texto, complemente com vídeo selfie se possível.
+- Nunca mande áudio como primeiro contato por uma razão de gatilho mental: pode gerar curiosidade, mas também pode ser ignorado por quem não pode ouvir naquele momento.
+
+STORYLINE — ARTE DE SINTETIZAR MENSAGENS
+------------------------------------------
+- Tudo que você escreve (WhatsApp, e-mail, contrato, descrição) deve passar pelo storyline: você escreve, espera um tempo, relê com olho fresco e melhora.
+- O que o storyline faz: enxuga o texto, corrige erros, troca palavras vagas por palavras precisas, elimina redundâncias.
+- Exemplos de storyline na prática:
+  • Antes: "Eu não estou no escritório agora. Quando eu chegar te envio as fotos, porque lá está meu computador." Depois: "Em trinta minutos as imagens estarão no seu e-mail."
+  • Antes: "Aí, seu fulano, então tipo, eu fui lá e aí o cara disse que ia pensar, aí eu falei que ia voltar amanhã." Depois: "Fulano, conversei com o proprietário. Ele precisa até amanhã para dar uma resposta. Te aviso assim que sair."
+- Princípio: mensagem enxuta, objetiva e bem escrita passa competência e pontualidade. "Daqui meia hora te envio" soa mais profissional do que dois parágrafos explicando por que você não enviou ainda.
+
+ROTEIROS DIÁRIOS — OTIMIZAÇÃO DO DIA
+--------------------------------------
+- O corretor vencedor planeja o roteiro do dia antes de sair de casa: qual imóvel visitar, por onde passar, qual cliente entregar material, quais ligações fazer.
+- Exemplo de roteiro otimizado: "Tenho que devolver chave às 11h, que fica perto de casa. Peço o Uber pra passar lá primeiro, pego o pão do lanche no caminho, já vou pro escritório. Daí de tarde visito a incorporadora que fica no caminho de volta."
+- Mostre sempre o melhor imóvel primeiro. O cliente que vê o melhor de cara pensa: "esse corretor me entendeu." Os outros da lista ficam como comparação, mas o anzol já está na barriga do cliente.
+- Após visitar imóveis: salve todas as fotos num Gmail separado (cria um só para isso — suporta até 5 GB). Quando o cliente pedir mais fotos, você encaminha do e-mail direto. Não precisa ter tudo no celular ocupando espaço.
+- Organize os contatos no celular com código: "Int. Nome Cliente (A/AP/CC/4D/valor)" = Interessado + tipo de imóvel + valor. Assim você sabe quem é cada lead só de olhar.
+
+ÉTICA E COMISSÃO
+-----------------
+- Nunca abaixe a comissão. Se o concorrente baixou, é problema dele. Se você baixa, o cliente vai pensar: "esse cara é malandro, ele abaixou porque precisava." Isso destrói credibilidade para vendas futuras.
+- Como recusar pedido de desconto na comissão com elegância: "Senhor, me desculpa, mas eu não posso fazer isso com meus colegas da região. Se eu baixar a comissão, vou estar sendo injusto com eles."
+- Construir ética gera confiança de longo prazo: os proprietários e incorporadoras mais valiosas chamam quem tem reputação — não quem faz desconto. Isso vale mais do que fechar um negócio imediato.
+- Não misture mediatismo com carreira. Está necessitado hoje? É passageiro. Jogar a ética fora para fechar uma venda não te levanta da necessidade — te enterra mais fundo.
+- Na era atual, clientes e parceiros valorizam valores e propósito. Quem age com ética constrói uma rede que eventualmente te traz os melhores negócios — sem você precisar correr atrás.
+
+CONDUÇÃO AO FECHAMENTO — QUANDO FALAR DAS PARTES RUINS
+--------------------------------------------------------
+- A hora correta de falar das partes complicadas do imóvel é DURANTE o encantamento, não na hora de assinar.
+- Exemplos:
+  • Correção alta (ex: IGPM + 0,8% ao mês): fale dentro do apartamento, enquanto está mostrando. "Tem uma facilidade: parcelamento direto em até cem meses, corrigido por IGPM + 0,8% ao mês. É um pouco acima do banco, mas é direto com a incorporadora, sem burocracia."
+  • Imóvel em inventário/partilha: "Essa casa é incrível, só que a gente precisa concluir a transferência do inventário antes. Colocamos um sinal, acionamos os advogados, e assim que sair o registro da partilha, assinamos a escritura com cláusula resolutiva. Mas isso a gente detalha depois. Vamos ver a próxima casa."
+  • Débito de IPTU: "Tem um débito de IPTU que vamos amortizar na entrada. Ou você paga o débito e a diferença entra como parte da entrada. O que você prefere?"
+- Nunca deixe o cliente "ir cru" para assinar sem ter um advogado ou alguém de confiança revisar os documentos. Isso parece ingênuo, mas é estratégico: "Você tem um advogado que eu possa mostrar a saúde documental desse negócio?" Isso relaxa o cliente — e o cliente que assina relaxado não cancela depois.
+- Princípio: a maioria das vendas que caem no fechamento caem porque o corretor deixou os assuntos difíceis para o último momento. Fale cedo, fale com naturalidade, siga em frente.
+
+OFERTA ATIVA E LISTA FRIA — LIGAR PARA DESCONHECIDOS
+------------------------------------------------------
+- Lista fria é uma lista de pessoas que não te conhecem e não manifestaram interesse. A taxa de conversão é baixa — mas os clientes que aparecem são de alto valor.
+- Não existe "lide frio" — existe atendimento ruim. O cliente passou por todo um processo (viu anúncio, parou, clicou, preencheu nome e telefone). Não é frio: é o seu primeiro contato que não encanta.
+- Na lista fria, de cada dez ligações, talvez uma responda com interesse. Isso é normal. O décimo primeiro pode ser o cliente. Nunca pare antes de completar a meta do dia.
+- Quando alguém reclamar do telefonema: "Me desculpa, devo ter ligado para a pessoa errada. Um grande abraço." Desliga. Sem drama.
+- Às vezes o próprio "errado" liga de volta semanas depois: "Você falou de apartamento — eu realmente quero vender o meu para comprar outro."
+- A Listel (lista telefônica) foi a origem da carreira do Altemir: ligava para desconhecidos sem base nenhuma e foi assim que construiu clientela do zero.
+- Para lista fria de médicos, advogados, empresários: não presuma que todo rico quer imóvel. Alguns aplicam tudo na bolsa. Outros adoram imóvel. Você só descobre ligando.
+
+REDES SOCIAIS — RITMO DE POSTAGEM SEMANAL
+-------------------------------------------
+- Foto de perfil: a mais natural possível, com rosto aparecendo, olhos visíveis. Sem óculos escuros, sem pose forçada. O cliente que olha às 23h precisa se sentir confortável em te mandar mensagem. Foto "durona" faz ele pensar: "deixa pra amanhã."
+- Ritmo sugerido de postagem por dia:
+  • Segunda: algo motivacional
+  • Terça: imóvel
+  • Quarta: imóvel
+  • Quinta: imóvel
+  • Sexta: bares, restaurantes e áreas de lazer para o fim de semana (conecta lifestyle com o cliente)
+  • Sábado: foto no ambiente familiar, sorridente — se não ficou boa, não posta
+  • Domingo: lifestyle — leitura, lazer, algo que o cliente olhe e pense "esse é meu corretor"
+- Princípio: o cliente te analisa nas redes sociais sem te dizer que está fazendo isso. Cuide da imagem que você projeta.
+
+FERRAMENTAS — CELULAR, AGENDA E LIVRO-ATA
+-------------------------------------------
+- Celular: iPhone 8 ou superior já faz fotos excelentes. Samsung também tem aparelhos fantásticos, mas a estabilidade de imagem do iPhone é ligeiramente superior. Use o celular que você tem — o que importa é saber usar.
+- Câmera grande angular: use com critério. Se o apartamento parece gigante na foto e é pequeno ao vivo, o cliente se frustra. Só publique fotos realistas.
+- Câmera 360°: não vale a pena — exige computador muito potente para editar e o resultado não compensa o custo.
+- Agenda de papel: essencial para anotar tudo com espaço. Use livro-ata (folhas grandes) para ter espaço livre por cliente — deixe 2 a 3 folhas por pessoa. Anote tudo que o cliente diz na ligação: família, situação, o que motiva, indicações.
+- Agenda digital (Google Calendar ou lembretes do iPhone): use para programar retornos. Exemplo: cliente atendido hoje → lembrete para 7 dias depois para o próximo contato da esteira.
+- Como salvar contatos: "Int. Nome (A) dois dormitórios 500k" = interessado em apartamento de dois dormitórios até 500 mil. Assim você cruza cliente com imóvel na hora que cair uma oportunidade.
+- Fotos dos imóveis: crie um Gmail exclusivo para isso. Depois de cada visita, envie as fotos para esse e-mail. Quando o cliente pedir mais fotos, encaminha direto — sem precisar ter tudo no celular.
+- Posições solares e fotos perfeitas: são aulas que exigem ser assistidas (mostram como fazer a foto). Detalhe importante: ao fotografar casas, tire da cena seu carro chamativo (ex: conversível). Depois que o cliente vê vários anúncios seus e seu site, ele reconhece o carro na rua — "será que é aquele corretor?". É mais um detalhe a seu favor. Não filme você chegando com o carro.
+
+CRENÇA, MANTRAS E REPROGRAMAÇÃO MENTAL
+-----------------------------------------
+- O entorno intoxica sem que você perceba. Pessoas que te deixam para baixo, conversas que te drenam, colegas que só falam de futebol e fofoca — tudo isso consome sua performance.
+- Faça uma limpeza no seu entorno. Não é crueldade — é necessidade. O corretor que passa a manhã conversando de besteira e chega ao final do dia achando que trabalhou muito não percebeu que não fez nenhuma ligação produtiva.
+- Mantra do dia a dia: ouça antes de ir para o trabalho, especialmente nos dias difíceis. Exemplo: "Hoje é um dia maravilhoso. O dinheiro chega a mim tanto de maneiras previstas como inesperadas." Parece bobagem até você testar — depois você entende.
+- Quando estiver desanimado, sem retorno nenhum: levante, dobre e estenda os joelhos rapidamente por um minuto. O corpo muda a mente. Parece ridículo — funciona.
+- Você está tendo sucesso em tudo que você faz — inclusive em não ligar para clientes, em enrolar o dia, em dar desculpas. Mude o foco do sucesso para o que te aproxima de vendas.
+
+CORRETOR PSICÓLOGO
+-------------------
+- O corretor psicólogo ouve muito e fala pouco. Se você fala mais do que o cliente, não está aplicando essa técnica — são só duas pessoas conversando sem direção.
+- O objetivo é fazer o cliente falar, falar, falar — enquanto você coleta informações e vai guiando com perguntas estratégicas.
+- Erro comum: corretor que fica 40 minutos no telefone com o cliente conversando de tudo, o cliente gosta muito, e depois some. Isso não é corretor psicólogo — é amizade sem técnica.
+- Tem uma aula específica no curso sobre isso. A técnica não se resume a um parágrafo — precisa ser estudada e praticada.
+
+PARCERIA COM CORRETORES — COMO FUNCIONA NA PRÁTICA
+----------------------------------------------------
+- Em parceria, cada corretor tem seus próprios clientes e seus próprios negócios. Quando tem que escolher entre atender o próprio cliente (100% da comissão) ou o cliente da parceria (50%), é natural que ele priorize o próprio.
+- Isso não é maldade — é dinheiro. Se o parceiro some, provavelmente apareceu um cliente dele com retorno. Não é desculpa de parente morto (embora isso também aconteça).
+- Implicação prática: não dependa de parceiro para fechar um negócio crítico. Se o cliente é seu e o imóvel é do parceiro, negocie diretamente com o proprietário se necessário, pagando a comissão ao parceiro.
+- Quando parceiro cancela uma visita agendada: "Infelizmente esses imóveis estão em parceria e os dois corretores que mostrariam junto comigo acabaram de me falar que não vão conseguir mostrar nesse final de semana. Já estou levantando outros semelhantes para te apresentar enquanto buscamos uma nova data para esse."
+- Princípio: quanto menos você depende de terceiros para fazer a venda acontecer, mais consistente é seu resultado.
+
+AUTÔNOMO VS IMOBILIÁRIA — QUANDO ESCOLHER
+-------------------------------------------
+- Não existe um melhor — depende do perfil de cada um.
+- Imobiliária: indicado para quem é estimulado pelo ambiente, pelo movimento ao redor, pela estrutura. Dá acesso a carteira de imóveis, suporte administrativo e visibilidade.
+- Autônomo: indicado para quem é autogerenciável, disciplinado, capaz de criar sua própria rotina sem depender de estímulo externo.
+- Para quem está começando em cidade nova: entre na imobiliária primeiro para conhecer o mercado, os imóveis, os preços, os proprietários e as construtoras. Depois, com carteira formada, avalie se vai ou não para o autônomo.
+- Para quem está no rural/área para incorporação e no avulso ao mesmo tempo: trabalhe os dois. Um não impede o outro. O avulso gera caixa enquanto a venda de área (que pode demorar meses) amadurece.
+
+COMO COMEÇAR A VENDER EM OUTRA CIDADE
+----------------------------------------
+- Antes de ter clientes: vá conhecer tudo. Visite imóveis, converse com gerentes de construtoras, mapeia os prédios do entorno, aprende os valores, as construtoras, os condomínios.
+- Quando aparecer um cliente: foque só no que ele precisa. Ajuste as velas para o que é ideal para ele e vá atrás.
+- Para cidade vizinha ou segunda praça: use a base de dados que você já tem. Se 3.000 contatos da sua cidade compram imóveis na cidade vizinha, você já tem público para anunciar. Crie um anúncio em vídeo: "Olá, você que é nosso cliente ou conhecido, estamos também com oportunidades em [cidade]. Se quiser saber mais, clique em saiba mais."
+- Faça remarketing para quem já te conhece antes de tentar atrair público frio.
+- Pirâmide financeira: de 3.000 contatos, ~300 têm condição de comprar (10%). Sempre trabalhe em cima dos 10%, não dos 100%.
+- Imobiliária ou autônomo na cidade nova: entre pela imobiliária primeiro para ter acesso a carteira de imóveis e conhecer o mercado local com mais velocidade.
+
+ÁREA PARA INCORPORAÇÃO VS AVULSO
+----------------------------------
+- Área para incorporação (vender terreno para construtora): negócio de alto valor, mas ciclo longo (meses para fechar). Exige caixa para sustentar o período sem comissão.
+- Avulso (casas, apartamentos, terrenos): ciclo mais curto, gera comissão mais rápida, mantém o caixa ativo.
+- Recomendação: trabalhe os dois ao mesmo tempo. O avulso sustenta enquanto a área amadurece.
+- Para imóveis de altíssimo valor (R$2,8 milhões, R$6,5 milhões): aplique exatamente o mesmo método — feeling, vídeo selfie, esteira, coração de pedra. Não existe técnica diferente para imóvel caro.
+- Áreas rurais dentro do perímetro urbano (para construções horizontais): são negócios grandiosos e demorados. Caso da aluna Renata — fechou duas áreas após orientação no aulão. Venda à vista é rápida; venda em parceria demanda tempo (reuniões que se arrastam por 4+ meses por ser negócio muito grande). O corretor que faz a intermediação dessas áreas pode também vender as unidades depois — divisor de águas na carreira.
+
+FORMAL DE PARTILHA — COMO LIDAR
+---------------------------------
+- Cada partilha tem seu motivo, sua legislação e seu prazo. Não existe um passo a passo único.
+- Dois tipos principais: por óbito (inventário) e por separação. Cada um tem legislação diferente, prazos diferentes e documentação diferente.
+- Como apresentar ao cliente durante o encantamento: "Essa casa é muito boa, só que antes de você transferir para você, a gente precisa fazer a transferência do inventário. É só colocar seu advogado em contato, ele vai ver a saúde documental. A gente assina o sinal, rola a burocracia, e quando sair o registro da partilha, já entra sua escritura com cláusula resolutiva em ato concomitante. Vamos ver a próxima?"
+- Dica prática: pergunte ao proprietário quais foram as melhores propostas que ele recebeu nos últimos seis meses. É assim que você descobre os obstáculos da negociação antes de apresentar o imóvel ao cliente.
+- Um imóvel em partilha não é problema — é uma oportunidade de negociar. Se a partilha custa R$250 mil e o imóvel vale R$1 milhão, você precisa de um comprador que dê R$250 mil de entrada (para pagar a partilha em 15-30 dias) e financia ou parcela o restante.
+
+GERENCIAMENTO DO DIA — O QUE FAZER E NÃO FAZER NO HORÁRIO COMERCIAL
+---------------------------------------------------------------------
+- O horário comercial é para contato com pessoas: ligar para compradores, ligar para vendedores/proprietários, visitar construtoras, visitar imóveis com cliente.
+- Meta mínima diária de ligações: 10 compradores + 10 proprietários (ou pelo menos 5+5 nos dias mais cheios).
+- O que NÃO fazer no horário comercial: editar fotos, atualizar site, postar nas redes sociais, conversar sobre assuntos aleatórios com colegas. Essas tarefas ficam para a noite ou para um dia específico da semana (ex: domingo à noite).
+- Ladrões de tempo ocultos: levantadas para café, conversa sobre futebol, política, fofoca de colegas, rolagem de feed do Instagram, ver stories de quem você segue. São hábitos que consomem horas sem você perceber.
+- Princípio: você está tendo sucesso em tudo que você faz — se você está gastando o dia rolando Instagram, está tendo sucesso em rolar Instagram. Mude o foco.
+- A hora de ligar não tem faixa proibida: 9h da manhã, 9h da noite — o cliente de noite está em casa, relaxado, pode te dar atenção total. "Está com sua família? Posso fazer uma chamada de vídeo e mostrar os imóveis na TV de vocês."
+
+QUANDO AJUDAR CLIENTE DE OUTRO CORRETOR
+-----------------------------------------
+- Situação: cliente chega no seu plantão já tendo comprado com outro corretor. Pede só para ver o decorado ou tirar uma dúvida.
+- Comportamento errado (antes do curso): "Procure o corretor que te vendeu, ele tem mais propriedade para responder."
+- Comportamento correto (método CV): atenda com excelência. Apresente o projeto, tire todas as dúvidas que o outro corretor não tirou, encante.
+- Por quê? Porque quando você vira uma pessoa melhor, você naturalmente vira um profissional melhor. E o cliente encantado traz oportunidade.
+- Caso real: Lailson (Pernambuco) atendeu um cliente assim num plantão, doente e com febre, deu o seu melhor — e o cliente comprou 4 apartamentos de resort (R$800.604), deu 8 terrenos para vender e um prédio de 12 apartamentos para captar.
+- Princípio: o mercado te quer. O mercado estava te esperando naquele plantão. Você que, muitas vezes que ele te esperava, não estava lá.
+
+5 LIVROS RECOMENDADOS PELO ALTEMIR ROCHA
+------------------------------------------
+1. "Como Fazer Amigos e Influenciar Pessoas" — Dale Carnegie
+2. "Poder sem Limites" — Anthony Robbins
+3. "Paixão por Vencer" — Jack Welch
+4. "A Arte de Fazer as Pessoas Experimentarem o Seu Máximo" — Eduardo Tevah
+5. "A Arte da Guerra" — Sun Tzu
+
+3 MELHORES MERCADOS DO BRASIL PARA CORRETOR
+---------------------------------------------
+- 1º lugar em faturamento: São Paulo capital. Mercado enorme, avulso e lançamentos. Quem quer ficar milionário mais rápido vai para São Paulo. Porém, qualidade de vida baixa para quem vem de cidade do interior.
+- 2º lugar (empate): Goiânia e Balneário Camboriú.
+  • Goiânia: excelente dinheiro + qualidade de vida alta. Muitos condomínios fechados para trabalhar. Boa para quem gosta de combinar ticket alto com variedade de produto.
+  • Balneário Camboriú: dinheiro alto, qualidade de vida absurda. Imóveis de R$5 milhões a R$15 milhões. Porém, poucos condomínios fechados — a maioria dos imóveis é em prédio.
+- Outros mercados em crescimento citados: Itapema (SC), Piçarras (SC), Rondonópolis (MT), Zona Leste de São Paulo.
+- Princípio: em qualquer mercado, tem corretor ficando rico e corretor abandonando. O mercado não é o problema — o atendimento e a mentalidade são.
+
+=====================================================================
+CONTEÚDO DO AULÃO ACELERADOR DO CORRETOR VENCEDOR (transcrição detalhada)
+=====================================================================
+
+ABERTURA DO AULÃO — 95% DA VENDA É O ATENDIMENTO
+--------------------------------------------------
+- 95% da sua venda depende do seu atendimento. Apenas 5% depende da captação e de onde o cliente veio.
+- O curso integra captação gratuita e captação paga (tráfego pago). A captação paga é um bônus separado — não está na plataforma principal do curso.
+- O cliente quer um AUXILIADOR / ORIENTADOR — não um "realizador de sonhos" no sentido lúdico. Você é, sim, um realizador de sonhos, mas muito mais que isso: você é um orientador de pessoas a terem coragem e darem o passo necessário para realizar os sonhos delas — sempre aliado a realizar o sonho do vendedor, do comprador E o seu.
+- Existe um FATOR EMOCIONAL por trás de TODOS os envolvidos: comprador, vendedor e até a incorporadora. Não é só "eles querem lucrar". Compreender o fator emocional baixa sua ansiedade e te aproxima dessas pessoas.
+- Fique amigo de todos que participam do processo. Não amigo de churrasco — amigo de dar oi, bom dia, trocar uma ideia rápida que aproxima. Isso faz a pessoa estar mais disposta quando você leva uma proposta ou precisa de ajuda.
+- Você domina o fator emocional sem ser explícito ("não esqueça do que te motivou a comprar"). É o jeitinho de balancear o que mexeria com a ansiedade do cliente e ir conduzindo ele desde a captação até o fechamento.
+- Pare com a obsessão de "mais lide, mais lide, mais cliente". Comece a colocar os clientes que você já tem na esteira de atendimento para esquentá-los.
+- Marque cada aula como concluída na plataforma para receber o certificado no final. Tem aluno que terminou o curso, está revendo, mas não recebeu o certificado por não ter marcado todas as aulas.
+
+OS MELHORES AMIGOS DO CORRETOR — REDE DE INFORMAÇÃO
+-----------------------------------------------------
+- Os maiores aliados do corretor para vender mais NÃO são os outros corretores — são zeladores, porteiros, jardineiros, piscineiros e faxineiras. Por quê? Porque a fofoca e a informação circulam por eles.
+- Exemplo: o piscineiro está limpando a piscina no fim de semana e o proprietário comenta "a gente tá pensando em vender pra ir pra outro lugar". Quando esse proprietário chega na imobiliária, ele esquece de contar o motivo real. Mas você, sendo amigo do piscineiro, fica sabendo.
+- A informação pode ser: "o fulano tá apertado, ele até baixa o preço." Você GUARDA essa informação — NÃO liga correndo fazer uma proposta baixa. Espera surgir uma proposta e usa a informação para ter mais domínio na negociação.
+- Faça eventos/encontros periódicos com esse pessoal de serviço (piscineiros, jardineiros, faxineiras) que atende os mesmos clientes que você.
+- Mais de 50% das vendas do Altemir são feitas em parceria (Santa Catarina, São Paulo, Goiânia, 7 cidades do Rio Grande do Sul, Rio Grande do Norte). No RN ele vendeu em parceria sem nem pisar na cidade. Mas os "parceiros" de informação mais valiosos são os profissionais de serviço.
+- EXEMPLO REAL (captação via porteiro — aluno Rafael, SP): foi tirar foto de um apartamento, conversou com o porteiro na saída, e descobriu que outro apartamento no mesmo prédio (o 156) também estava à venda — o porteiro tinha a chave e o telefone na hora. Captação imediata só por dar atenção ao porteiro.
+
+A JORNADA DE COMPRA DO CLIENTE — POR QUE "LIDE FRIO" NÃO EXISTE
+----------------------------------------------------------------
+- O cliente percorre 3 etapas antes de chegar até você:
+  1. Placas (em imóveis e outdoors), plantões de lançamento e sedes de imobiliárias — tudo que é referente a imóvel na rua, ele começa a olhar.
+  2. Google: digita "apartamentos no bairro tal", "casas em tal lugar".
+  3. Cruzamento de redes sociais: como WhatsApp, Facebook e Instagram têm donos integrados, quando ele fala "tô procurando casa", passa a receber anúncios de vários corretores (remarketing).
+- Para chegar até você, o cliente parou no anúncio, leu, olhou a foto, clicou em "saiba mais", preencheu nome/telefone/e-mail (ou pegou o número na placa, digitou, salvou e ligou). Isso é MUITO esforço.
+- Conclusão: NÃO existe "lide frio". Existe atendimento ruim. Se você tem 10 ou 20 leads e nenhuma venda, o problema é seu atendimento — não o lead, não a captação.
+- Do outro lado tem alguém com uma expectativa enorme e um fator emocional forte (a mãe separada que quer apartamento menor e seguro só pra ela e o filho; o investidor que quer comprar por 50 e vender por 100). O cliente não conta isso — você descobre através do atendimento e das três perguntas.
+
+O QUE É O CLIENTE E O QUE ELE PERDE DE VOCÊ
+---------------------------------------------
+- São duas aulas curtas do curso. O essencial: compreender que o cliente é uma pessoa com expectativas reais, e que quando ele te perde (ou você o perde), ele perde tudo aquilo que só você sabia oferecer — o feeling, a condução, o cuidado.
+
+DETALHAMENTO DOS TIPOS DE CLIENTE (DO AULÃO)
+----------------------------------------------
+- OBS. de reconciliação: no aulão o Altemir trabalha 4 mentalidades centrais (investidor, quer comprar, olhando com calma, curioso). O material do curso lista 5, acrescentando "informático". As 4 abaixo são o detalhamento dado ao vivo. Ver também [[as-5-mentalidades-do-cliente]].
+- A identificação da mentalidade acontece NO COMEÇO do atendimento.
+
+1) INVESTIDOR:
+- Identifica-se porque ele fala que é investidor (cuidado: quem quer comprar às vezes mente que é investidor).
+- Ação rápida: ofereça TODOS os imóveis na margem de valor ou abaixo dela.
+- Mais do que "comprar por 1 milhão e vender por 800 mil": o bom corretor tem estudos de investimento — áreas que podem virar permuta no futuro, terrenos no canto da cidade que vai crescer.
+- EXEMPLO REAL (permuta): um dono de 3 terrenos juntos comprou por R$250 mil há ~15 anos. Na permuta com a construtora, recebeu 8 apartamentos; o mais barato vendeu por R$300 mil. A números de hoje, ele teria pago R$3 milhões pelos terrenos — mas comprou cedo. Lição: crie negócios que fazem sentido pro investidor, não só o "tanto por tanto".
+- Como descobrir oportunidades de investidor: falando muito com construtoras e gerentes, perguntando o que a região busca — não para ofertar ao gerente, mas para transformar qualquer cliente comum (ex: dono de restaurante que sobra caixa) em investidor.
+
+2) QUER COMPRAR (o PIOR cliente):
+- Para de querer esse cliente. Identifica-se fácil: já fez proposta aqui e ali, está com pressa, diz "se você achar o que eu quero, eu compro hoje".
+- Ação: mostre TUDO, do que mais serve até o que está fora do que ele pediu, do mais barato ao mais caro. Por um detalhe ele compra outro. Ele bate o martelo e fecha. Muitas vezes é uma coisa que o corretor anterior esqueceu de mostrar/falar.
+
+3) OLHANDO COM CALMA (o MELHOR cliente):
+- É o cliente que você encanta e bota na esteira de atendimento. Pode olhar terreno, casa pronta, apartamento de chave — tenha alcance amplo.
+- Esteira: do contato de hoje até o próximo em 7 dias; depois mantém de 10 em 10 dias. Acompanha por meses, anos. Fechar hoje uma venda de um cliente que está há 2 anos na base vale MUITO a pena — senão essa venda vai pro próximo corretor.
+- Frequentemente esse cliente estipula um valor e não cede porque o corretor BARROU no valor e não fez a primeira pergunta ("o que está motivando você?"). É o fator emocional que está faltando.
+- Pode romper a esteira quando entra algo melhor: "Seu fulano, entro em contato porque esse apartamento é ainda melhor do que aquele de ontem. Mandei detalhes no e-mail." Rompe para não perder pro concorrente.
+
+4) CURIOSO (o 2º melhor cliente):
+- É o cara que comenta nas rodas: "tem um corretor que me mandou um apartamento, olha aqui". Ele te indica e espalha o tempo todo.
+- Ação: "Fico feliz que você entrou no nosso site. Você se importa se eu enviar a cada 10 dias uma oportunidade diferente? Sigo com apartamentos de 3 dormitórios como você se cadastrou, ou prefere que eu envie sortido de outros imóveis também?" — geralmente ele aceita tudo. Lacrou.
+
+INVESTIDOR — IR ALÉM DO "TANTO POR TANTO"
+-------------------------------------------
+- O melhor argumento para investidor raramente é só desconto. É visão de futuro: área de permuta, terreno em zona de expansão, imóvel de praia para alugar por temporada/plataformas (rentabilidade o ano inteiro).
+- Para vender área para incorporação: você levanta o investidor, apresenta o potencial, e isso pode levar meses até o investidor/construtora decidir. Precisa de caixa para sustentar o período.
+
+DICAS DE APRESENTAÇÃO PESSOAL — DETALHES PRÁTICOS
+--------------------------------------------------
+- Barba (pele sensível): use barbeador Doctor Jones de 5 lâminas (mais barato que Gillette Mach 3) — passe UMA vez só, com cuidado. Para acalmar a pele: molhe uma toalha, leve ~1min30 ao micro-ondas e aplique no rosto.
+- Camisa polo / camisa de gola: para a gola ficar alinhada, feche-a apertando com a mão e ande assim por casa enquanto se arruma (fazendo barba, escovando os dentes). Ao chegar no carro, solte — ela já fica no caminho certo.
+- Sapato: barato resolve — passa um pano e renova. Sapato com cadarço passa mais respeito quando você tiver grana; sem cadarço é mais prático (não marca com respingo).
+- Construa o guarda-roupa devagar: só leve a peça que ficou TOP em você. Roupa/terno que não cai bem tira sua performance — não use.
+- O básico necessário: roupa que cai bem + parte intelectual (voz, olhar, argumentação). Botox, ácido hialurônico etc. são plus, não o necessário.
+
+OS 7 MOTIVOS PARA LIGAR ÀS 21H (NÃO EXISTE HORÁRIO PROIBIDO)
+-------------------------------------------------------------
+- Não existe faixa de horário proibida para ligar. Quem só liga depois do meio-dia de segunda está se enchendo de desculpa. Motivos para ligar às 21h:
+  1. O melhor horário é AGORA; a melhor época para visitar é agora (antes de qualquer lockdown/mudança de cenário).
+  2. Pega o cliente descansado, sentado na poltrona.
+  3. Sem barulho/interrupções — ele te dá atenção total.
+  4. Aproveita melhor a conversa.
+  5. A esposa/esposo provavelmente está do lado — pega quem decide junto.
+  6. Cliente cansado tende a fazer/aceitar proposta de forma menos endurecida (se entrega mais).
+  7. Dá para propor chamada de vídeo: "Está com a família? Vou fazer uma chamada e mostrar os imóveis na TV de vocês — vai ser o Netflix com o Altemir." Inverte o jogo e apresenta para a família inteira.
+- Princípio: você sempre acha motivo para NÃO fazer. Inverta a cabeça e busque os motivos para FAZER. Se ligou para 10 e nenhum atendeu, o 11º era o cara. Parou no 11º? Era o 12º. Não pare — o "sim" que era seu vai para o "Zezinho" desesperado que ligou para mais um.
+
+E-MAIL QUE O CLIENTE RESPONDE
+-------------------------------
+- Cliente não responde e-mail porque o corretor copia a descrição do site e cola no e-mail. Ele já leu isso no site — não vale a pena responder.
+- Faça e-mail interessante, com o feeling, sem ser uma página inteira. Instigue o cliente a abrir o e-mail (ex: "mandei as fotos no seu e-mail" em vez de jogar tudo no WhatsApp). Aí você descobre que cliente abre, sim, e-mail.
+- Material para o cliente: NÃO mande o book/PDF da incorporadora. Faça seu próprio material, com suas palavras, aplicando o feeling. "Vou te mandar um material meu que eu fiz explicando."
+
+CAPTAÇÃO NO FACEBOOK ORGÂNICO (AULA DA NAIRA BARROS)
+------------------------------------------------------
+- Naira Barros é aluna do Altemir e fez 4 mentorias com ele (marketing de conteúdo para corretores, marketing digital, anúncios que convertem, e a mentoria Corretor Vencedor). Ela gravou uma aula bônus ensinando a captar clientes DE GRAÇA pelo Facebook orgânico.
+- O Facebook orgânico dá bastante trabalho de ficar respondendo — exige envolvimento por um período. Estratégia comum entre alunos: capta no orgânico, faz 2-3 vendas, trabalha em ritmo mais leve, volta a captar. Vale a pena se o seu problema é captação.
+
+REDES SOCIAIS — DETALHE DA FOTO DE PERFIL
+-------------------------------------------
+- A foto de perfil é analisada pelo cliente, principalmente à noite (23h, meia-noite, 1h) — horário em que o casal ou o empresário consegue ver coisas pessoais.
+- Foto "durona", de óculos escuro, cara de mau, em cima da moto → o inconsciente do cliente diz "deixa pra amanhã" (e ele não sabe explicar por quê). Foto natural, sorriso bacana → ele se sente confortável para mandar mensagem a qualquer hora.
+- Óculos só se justificar muito o contexto (praia bonita, apartamento com sol entrando).
+
+GRUPO VIP E VÍDEO DEPOIMENTO
+------------------------------
+- Ao ter qualquer resultado com o curso, grave um vídeo de depoimento (vídeo selfie falando do resultado) e você entra no Grupo VIP de alunos (grupo separado no Telegram).
+- Benefícios do VIP: aproximação maior com o Altemir, ingressos grátis para palestras presenciais, convite para ser embaixador e subir ao palco contar a própria história.
+- Gratidão é um gatilho mental poderoso. O depoimento também encoraja outros corretores a investirem em si mesmos.
+
+PONTUALIDADE NOS AULÕES
+-------------------------
+- Os aulões ao vivo são mensais e ficam gravados (substituíram os "Aulões Aceleradores de Resultados" antigos).
+- 20h é 20h — não é 20h05 nem 20h25. Chegar atrasado atrapalha todo mundo, inclusive você mesmo. As aulas ao vivo são no Zoom; o YouTube é só para quem entrou com pressa e ainda não tem Zoom configurado.
+
+CASOS REAIS CONTADOS PELO ALTEMIR (referência de argumentação)
+----------------------------------------------------------------
+- RICARDO KLEIN: aluno que em 30 dias de curso / 2 meses de corretor fez uma venda de R$1,3 milhão complicada (com ajuda no grupo de alunos). Em 6 meses de corretor comprou uma SW4 0km diesel — chamava de "o novo eu" (referência à aula "Encontro com seu novo eu").
+- ALFA DO BRASIL / ADILSON (Sense / It Essence): apartamento de tabela R$1,38 milhão que o cliente pagou R$980 mil. Conseguido porque o Altemir é "puxa-saco" dos gerentes e visita os proprietários nas metas diárias. Ao saber do apartamento voltando, ligou para vários clientes da carteira; lá pelo 15º um atendeu e fechou (mesma entrada do cliente anterior). Aconteceu várias vezes, principalmente com imóveis menores (terreno comprado a R$80 mil chegando a R$180 mil).
+- HENRIQUE WANTÖBEL (ex-presidente da Coca-Cola do Brasil, grupo Wantöbel): pediu avaliação de uma casa de netos/sobrinho em formal de partilha (liberação em 7 meses). Condomínio caro (R$2.500/mês) e IPTU alto (R$12 mil/ano); herdeiros humildes. Altemir sugeriu ALUGAR durante a partilha (contrato de 6+6 meses, renovável). Resultado: o imóvel ficou 8 anos alugado (vários motivos da família) e o Altemir ganhava R$5 mil/ano só para trocar o contrato. Lição: partilha por óbito e por separação são legislações diferentes — não existe passo a passo único.
+- ERIC (ex-gerente de banco, Rondonópolis/MT): saiu do banco em agosto, usou a rescisão que incentivava comprar um curso de recolocação para comprar o Corretor Vencedor (foi reembolsado pelo banco). Em ~40 dias, sem ter terminado o curso, fechou venda de R$3,4 milhões (casa em condomínio fechado) em parceria com a dona da imobiliária. Usou as 3 perguntas do cliente. Aplicou a disciplina de metas que aprendeu no banco. Mato Grosso é potência do agro/gado, mercado muito aquecido com lançamentos seguidos.
+- NOGUEIRA (Mato Grosso → vai para Balneário): venda de áreas com R$11,5 milhões de VGV, 2 propriedades / proprietários diferentes, em parceria com 3 corretores. Regra dele: só faz parceria se fizer 100% do atendimento dos dois lados (senão "você levanta o negócio e o parceiro derruba"). Cliente investidor pesado pede escritura liberada e dá garantia de bem (ex: área vale 5mi, ele dá 10mi de garantia em outro imóvel) parcelando em 2 anos. Um parceiro "cabeça de bagre" ligou pro proprietário sexta 18h e deixou o cara "com a pulga atrás da orelha". Solução do Altemir: sentar com o proprietário, esclarecer as garantias, manter ele no negócio e ir costurando as garantias — o parceiro foi por ansiedade/amadorismo. Detalhes técnicos: área com cerca maior que a matrícula, área de 70 hectares na matrícula com só 66 na medida, regularização de assentamento exige título de posse há 10 anos (ITR comprova posse em área rural; IPTU em área urbana).
+- VICTOR (Atlântida → Balneário) / FERNANDO BRANDÃO: cliente investidor (constrói casas em condomínio). Altemir mostrou vídeo selfie genérico de um apartamento em Itajaí ("não é 5 min de engarrafamento, quando tiver lotado você já está dentro do seu apartamento com vista pro mar"). Fechou R$1,75 milhão em parceria — nem precisou de coração de pedra. Mostrou 5 dos 8 apartamentos que tinha; o cliente comprou 1 dos 5. Lição: ele já conhecia a praia/valores de uma mentoria anterior (com Bruno Cassola, IBC imobiliária) — chegou "de paraquedas" antes, e quando o cliente apareceu, ajustou as velas.
+- DORMIR NA ESTRADA / BMW: Altemir tentou morar/vender em Balneário e no RS ao mesmo tempo. Saindo às 7h cansado (após academia, caminhada até meia-noite, aulão/mentoria até 3h), cochilou ao volante da BMW 0km, sentiu o carro sair de faixa, encostou, cancelou a venda (o cliente comprou no mesmo fim de semana) e foi dormir num motel da estrada. Decidiu: ou vende lá, ou vende aqui. Voltou pro Sul por causa dos filhos. Lição: foco — não dá para servir a dois mercados distantes; faça uma escolha.
+- GAROTO DA GLOBO (ética): exemplo de quem saiu de R$2,5 milhões/mês de salário para abrir o próprio negócio por uma questão de VALORES (não conseguia conciliar o que a emissora fazia com seus valores). Estamos numa era que empurra para a construção de coisas sadias — perca o negócio, mas não perca sua ética.
+- Z-TECH / VERSA BROOKLYN (São Paulo): apartamento captado por R$550 mil e vendido por R$1,17 milhão; o cliente exigiu que o Altemir fosse a São Paulo assinar.
+- LAILSON (Pernambuco): ver [[quando-ajudar-cliente-de-outro-corretor]]. Além das 4 unidades (R$800.604) em resort em Carneiros, o cliente entregou 8 terrenos no bairro nobre Luiz Gonzaga e um prédio de 12 apartamentos para vender/captar — porque quer vender os imóveis que tem para reinvestir em imóveis de praia para alugar por temporada. Depois, a imobiliária montou um estande exclusivo (~R$5 mil) só para o Lailson vender o "Max Carneiros" no salão imobiliário, pela forma como ele vendeu.
+
+PERGUNTAS ESPECÍFICAS RESPONDIDAS NO AULÃO
+--------------------------------------------
+- Vários vídeos selfie seguidos, de imóveis diferentes, servem? SIM.
+- Vídeo selfie num contato e e-mail com outro imóvel no próximo, serve? SIM.
+- 3 contatos de e-mail a cada 30 dias, todos com imóvel que serve pra ele? SIM.
+- A técnica coração de pedra/sangue de barata funciona para imóveis novos (gerente de incorporadora)? SIM, funciona para tudo.
+- Quando o cliente pede o e-book/book do empreendimento: não mande o book pronto — faça seu material com suas palavras e o feeling.
+- Proposta em apartamento com formal de partilha (passo a passo)? Não há passo a passo único — cada partilha tem motivo, legislação e prazo próprios (óbito vs separação). Ver [[formal-de-partilha-como-lidar]].
+
 PRINCÍPIOS GERAIS DO CURSO
 ----------------------------
 - Aplique o curso na prática. A transformação vem da vivência, não da teoria.
@@ -232,3 +645,6 @@ PRINCÍPIOS GERAIS DO CURSO
 - Use o grupo de alunos como suporte e troca de experiências.
 - A maioria das dúvidas do dia a dia é respondida aplicando o curso.
 - Não estudar, não vivenciar, não ter o método ativo na cabeça = perder timing e perder venda na frente do nariz.
+- "Quando você vira uma pessoa melhor, você naturalmente vira o profissional melhor." — princípio central do aulão.
+- "Não existe proposta ruim. Existe a primeira proposta — e a partir dela a gente vai evoluir o negócio."
+- "Isso aqui é viver a vida com o Corretor Vencedor. É uma vida que vale a pena." — Altemir, encerrando o aulão.
