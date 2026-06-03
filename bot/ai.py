@@ -1,6 +1,7 @@
 import logging
 from openai import OpenAI, APIConnectionError, APIStatusError, RateLimitError
-from config import GROQ_API_KEY, MODEL_NAME, SYSTEM_PROMPT, MAX_TOKENS
+from config import GROQ_API_KEY, MODEL_NAME, BASE_SYSTEM_PROMPT, MAX_TOKENS
+from router import load_knowledge_for_query
 
 logger = logging.getLogger(__name__)
 
@@ -11,7 +12,10 @@ client = OpenAI(
 
 
 def ask_openai(user_message: str, conversation_history: list = None) -> str:
-    messages = [{"role": "system", "content": SYSTEM_PROMPT}]
+    knowledge = load_knowledge_for_query(user_message)
+    system_prompt = BASE_SYSTEM_PROMPT + knowledge
+
+    messages = [{"role": "system", "content": system_prompt}]
 
     if conversation_history:
         messages.extend(conversation_history[-6:])
@@ -29,17 +33,17 @@ def ask_openai(user_message: str, conversation_history: list = None) -> str:
 
     except RateLimitError:
         logger.warning("Rate limit atingido no Groq")
-        return "⚠️ Muitas requisições em pouco tempo. Aguarde alguns segundos e tente novamente."
+        return "Muitas requisições em pouco tempo. Aguarde alguns segundos e tente novamente."
 
     except APIConnectionError:
         logger.error("Falha de conexão com o Groq")
-        return "⚠️ Serviço de IA temporariamente indisponível. Tente novamente em instantes."
+        return "Serviço de IA temporariamente indisponível. Tente novamente em instantes."
 
     except APIStatusError as e:
         logger.error("Erro da API Groq %s: %s", e.status_code, e.message)
         if e.status_code == 401:
-            return "⚠️ Chave de API inválida. Contate o administrador do bot."
-        return "⚠️ Erro ao processar sua pergunta. Por favor, tente novamente."
+            return "Chave de API inválida. Contate o administrador do bot."
+        return "Erro ao processar sua pergunta. Por favor, tente novamente."
 
 
 def check_ai_health() -> dict:
