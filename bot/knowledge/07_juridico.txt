@@ -69,6 +69,8 @@ Como apresentar ao cliente durante o encantamento: "Essa casa é muito boa, só 
 
 Dica prática: pergunte ao proprietário quais foram as melhores propostas que ele recebeu nos últimos seis meses. É assim que você descobre os obstáculos da negociação antes de apresentar o imóvel ao cliente.
 
+Estratégia proativa durante a partilha — propor aluguel: enquanto o formal de partilha não é concluído (processo que pode levar meses ou anos), o imóvel pode gerar renda. Proponha aos herdeiros ou responsáveis um contrato de aluguel renovável enquanto o processo corre. Vantagem para eles: o imóvel não fica vazio e parado no custo (IPTU, condomínio). Vantagem para você: você gerencia o aluguel, ganha taxa de administração ou comissão de renovação, e mantém o imóvel na sua carteira até ele ficar liberado para venda. Caso real: Altemir administrou um imóvel em partilha (formal de óbito) por 8 anos por esse motivo — ganhando R$5.000/ano apenas para trocar o contrato anual.
+
 Um imóvel em partilha não é problema — é uma oportunidade de negociar. Se a partilha custa R$250 mil e o imóvel vale R$1 milhão, você precisa de um comprador que dê R$250 mil de entrada e financia ou parcela o restante.
 
 PARCERIAS, INDICAÇÕES E RESPONSABILIDADE LEGAL
@@ -78,3 +80,13 @@ O cliente é seu enquanto VOCÊ assina como responsável no documento de contrat
 Se a desconfiança em uma parceria é legítima: sente, alinhe diretamente com o parceiro. Se não der para alinhar, faça parcerias com OUTROS profissionais que já tenham equipe montada e estrutura clara.
 
 Princípio: parceria precisa ter clareza de remuneração, responsabilidade e estrutura. Sem isso, suspenda e busque parceiros melhores.
+
+ÁREAS RURAIS E PARA INCORPORAÇÃO — DOCUMENTAÇÃO E PEPINOS COMUNS
+
+Discrepância entre área registrada e área real: é comum que a área física seja menor do que a registrada na matrícula. Ex: 70 hectares no papel, 66 na medição real; 45 na matrícula, 42 no levantamento. Isso não invalida a venda — mas precisa ser tratado entre as partes antes do fechamento. Quanto maior a diferença, mais atenção e maiores os ajustes necessários.
+
+ITR em vez de IPTU: imóveis rurais não têm IPTU — o tributo equivalente é o ITR (Imposto Territorial Rural). Para comprovar posse ou tempo de ocupação em área rural, o ITR substitui o IPTU.
+
+Escritura de área de assentamento: em algumas regiões existe legislação municipal que regulariza áreas de assentamento. Para ter direito à escritura definitiva, o proprietário precisa comprovar título de posse há no mínimo 10 anos. Antes desse prazo, só existe concessão — não escritura definitiva. Verifique a legislação da comarca antes de orientar o cliente.
+
+Fraude de cerca em incorporação: incorporadoras desonestas costumavam avançar a cerca 50 metros de cada lado para ganhar até 1 hectare a mais no levantamento. Em alguns casos, escrituras de mais terrenos do que a área comporta fisicamente eram emitidas (ex: 500 terrenos no papel, 450 na área real). Em qualquer área grande, confira a metragem real contra a matrícula antes de apresentar ao cliente ou à construtora.

@@ -12,7 +12,7 @@ ALLOWED_GROUP_IDS: list[int] = [int(x.strip()) for x in _allowed.split(",") if x
 COOLDOWN_SECONDS = int(os.getenv("COOLDOWN_SECONDS", "30"))
 STATUS_PORT     = int(os.getenv("STATUS_PORT", "8080"))
 BOT_NAME        = os.getenv("BOT_NAME", "SupportBot")
-MAX_TOKENS      = int(os.getenv("MAX_TOKENS", "400"))
+MAX_TOKENS      = int(os.getenv("MAX_TOKENS", "800"))
 
 KEYWORDS = [
     k.strip()
@@ -32,7 +32,7 @@ REGRAS DE COMPORTAMENTO:
 - Nunca invente informações sobre o curso
 - Sempre incentive o aluno a aplicar o curso na prática
 - Seja cordial, educativo e paciente
-- Respostas devem ter no máximo 300 palavras
+- Seja completo e preciso. Se a resposta exige detalhe, dê detalhe — não resuma ao ponto de perder a instrução prática
 
 FORMATAÇÃO PARA TELEGRAM:
 - Use *texto* com um asterisco de cada lado para destacar algo em negrito

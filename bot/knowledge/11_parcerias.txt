@@ -6,6 +6,8 @@ Implicação prática: não dependa de parceiro para fechar um negócio crítico
 
 Quando parceiro cancela uma visita agendada: "Infelizmente esses imóveis estão em parceria e os dois corretores que mostrariam junto comigo acabaram de me falar que não vão conseguir mostrar nesse final de semana. Já estou levantando outros semelhantes para te apresentar enquanto buscamos uma nova data para esse."
 
+Quando o cliente está prestes a desistir e o parceiro cancelou: entre em contato direto com o proprietário, negocie a visita por conta própria, e avise ao parceiro: "Consegui o contato do proprietário para mostrar esse final de semana porque o cliente estava desistindo. A sua comissão está garantida." Você assume o custo da comissão do parceiro mas salva o negócio. Perder o negócio por dependência de parceiro é pior do que pagar comissão por visita direta.
+
 Princípio: quanto menos você depende de terceiros para fazer a venda acontecer, mais consistente é seu resultado.
 
 AUTÔNOMO VS IMOBILIÁRIA — QUANDO ESCOLHER
@@ -24,4 +26,34 @@ COMO COMEÇAR A VENDER EM OUTRA CIDADE
 - Para cidade vizinha ou segunda praça: use a base de dados que você já tem. Se 3.000 contatos da sua cidade compram imóveis na cidade vizinha, você já tem público para anunciar. Crie um anúncio em vídeo: "Olá, você que é nosso cliente ou conhecido, estamos também com oportunidades em [cidade]. Se quiser saber mais, clique em saiba mais."
 - Faça remarketing para quem já te conhece antes de tentar atrair público frio.
 - Pirâmide financeira: de 3.000 contatos, ~300 têm condição de comprar (10%). Sempre trabalhe em cima dos 10%, não dos 100%.
-- Imobiliária ou autônomo na cidade nova: entre pela imobiliária primeiro para ter acesso a carteira de imóveis e conhecer o mercado local com mais velocidade.
+- Imobiliária ou autônomo na cidade nova: entre pela imobiliária primeiro. Em mercados de alto giro como Balneário Camboriú, começar por terceiros (avulso) é melhor do que entrar por uma única incorporadora — você tem uma biblioteca muito maior de imóveis para oferecer ao cliente. Depois, com carteira e conhecimento formados, avalie se migra para uma incorporadora específica.
+
+- Expansão por imóveis avulsos: comece pelo prédio onde você está, conheça os do lado, depois os da frente, depois os do entorno. Expanda de dentro para fora, ampliando o raio progressivamente. Não tente conhecer tudo de uma vez — construa o mapa de dentro para fora.
+
+- Escolher entre duas cidades: você não consegue servir duas praças com excelência ao mesmo tempo. Quando o cliente está numa cidade e você está em outra, uma das duas sofre. Defina sua praça principal e encerre o ciclo na anterior. Altemir perdeu uma venda de R$1.75M e quase perdeu uma BMW dormindo na estrada tentando cobrir Atlântida e Balneário ao mesmo tempo. "Cê vai ter que escolher: ou eu vendo lá ou eu vendo aqui."
+
+- Aluguel de temporada em nova cidade: os contratos de aluguel para alta temporada (dezembro-fevereiro) são fechados em setembro, outubro e novembro. Se você chegar em dezembro para trabalhar com aluguel, os imóveis já estão alugados. Para quem chega tarde, foque em vendas — ou já se posicione no mercado de aluguel de setembro em diante.
+
+- Confiabilidade de parceiros: parceiros sempre priorizam os clientes deles. Quando aparece um lead próprio do parceiro, a parceria vai para o fim da fila — é natural, não é má-fé. É questão de comissão: 100% no próprio cliente vs. 50% no cliente da parceria. Não se surpreenda com as desculpas ("teve covid, morreu parente, capotou o carro") — o parceiro achou outro lead e a parceria foi para trás. Construa seu negócio de forma que você não precise depender de parceiro para fechar.
+
+PARCEIRO QUE SABOTA A NEGOCIAÇÃO POR ANSIEDADE
+
+Situação típica: negociação estava fechada na quinta-feira, tudo certo. Na sexta às 18h, um parceiro liga direto pro proprietário para "checar se tá tudo certo" — sem avisar você. O proprietário, que estava tranquilo, fica com a "pulguinha atrás da orelha" sobre garantias, condições, qualquer detalhe que o parceiro mencionou sem contexto. Reunião na segunda às 8h.
+
+O que aconteceu: o parceiro agiu por ansiedade, não por má-fé. Em vez de perguntar pra você como estava, foi direto — e detonou o que estava redondo.
+
+Como recuperar na reunião: sente com o proprietário e esclarece com calma. "Não estávamos aptos ainda a apresentar as garantias no formato que o senhor esperava — mas o negócio vai dar certo. Eu estava buscando o resultado enquanto costurava essas garantias. Agora vou te mostrar o que a gente tem." Não entre se justificando — entre apresentando o que vem a seguir.
+
+Prevenção: em qualquer parceria com VGV alto ou negociação delicada, deixe explícito desde o início que nenhum parceiro faz contato com proprietário ou comprador sem o seu conhecimento. Quem controla o contato controla o negócio.
+
+ÁREAS PARA INCORPORAÇÃO — TRABALHAR COM AVULSO AO MESMO TEMPO
+
+Não são mercados concorrentes. Trabalhe os dois.
+
+Por quê: venda de área para incorporação pode levar meses entre o primeiro contato e o fechamento — o investidor analisa, a construtora avalia, a documentação é verificada. Nesse intervalo, você precisa de caixa. O avulso (apartamento, casa, terreno urbano) fecha mais rápido e garante esse fluxo.
+
+A estratégia: entre na imobiliária e pergunte se consegue trabalhar também com área de incorporação em paralelo. Se sim, toca os dois. Se um negócio de área grande está acontecendo naturalmente, vai com ele — mas não abandone o avulso enquanto o ciclo da área não fechar.
+
+Princípio (Pai Rico, Pai Pobre): tenha renda em tudo que você tem paixão. Não descarte possibilidades de ganho — construa múltiplas fontes dentro do que você já sabe fazer.
+
+Limiar para focar só em área: se a primeira comissão de área vier acima de R$150k-R$300k, você tem fôlego para focar. Se vier abaixo — ou enquanto não vier — mantenha o avulso rodando. R$150k dividido por 12 meses = ~R$12.500/mês. Em São Paulo (Uber, alimentação fora, deslocamentos), isso some rápido. Não abandone a diversificação antes de ter um colchão real.
