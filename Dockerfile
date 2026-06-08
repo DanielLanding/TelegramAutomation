@@ -11,8 +11,9 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 COPY bot/requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Copia código do bot
+# Copia código do bot e dashboard
 COPY bot/ .
+COPY dashboard/ ./dashboard/
 
 # Porta da API de status
 EXPOSE 8080

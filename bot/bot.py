@@ -12,7 +12,7 @@ from telegram.ext import (
     ContextTypes,
     filters,
 )
-from flask import Flask, jsonify
+from flask import Flask, jsonify, send_from_directory
 
 from config import (
     TELEGRAM_TOKEN,
@@ -223,6 +223,10 @@ def api_status():
 def api_logs():
     return jsonify(list(recent_logs))
 
+
+@flask_app.route("/")
+def dashboard():
+    return send_from_directory("dashboard", "index.html")
 
 @flask_app.route("/health")
 def health():
