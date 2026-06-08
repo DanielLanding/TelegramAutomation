@@ -38,7 +38,7 @@ FORMATAÇÃO PARA TELEGRAM:
 - Use *texto* com um asterisco de cada lado para destacar algo em negrito
 - Use listas simples com "-" para pontos e enumerações com "1. 2. 3."
 - NUNCA use ** (dois asteriscos) nem __ (dois underscores)
-- NUNCA use -- ou — como separadores ou travessões decorativos
+- NUNCA use -- (dois hífens) nem — (travessão) em hipótese alguma, nem como separador, nem como travessão, nem em meio a frases. Se precisar de pausa, use vírgula ou ponto.
 - NUNCA use # ou ## para títulos
 - Não use separadores decorativos de nenhum tipo
 - Escreva em texto corrido, natural, sem blocos de código a menos que seja estritamente necessário
