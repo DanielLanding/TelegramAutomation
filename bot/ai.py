@@ -33,8 +33,8 @@ def ask_claude(user_message: str, conversation_history: list = None) -> str:
     except anthropic.APIStatusError as e:
         logger.error("Erro da API Claude %s: %s", e.status_code, e.message)
         if e.status_code == 401:
-            return "⚠️ Chave de API inválida. Contate o administrador do bot."
-        return "⚠️ Erro ao processar sua pergunta. Por favor, tente novamente."
+            return "Chave de API inválida. Contate o administrador do bot."
+        return "Erro ao processar sua pergunta. Por favor, tente novamente."
 
 
 def check_ai_health() -> dict:

@@ -130,7 +130,14 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
             history = history[-12:]
         conversation_history[user_id] = history
 
-        await message.reply_text(response, reply_to_message_id=message.message_id)
+        try:
+            await message.reply_text(
+                response,
+                reply_to_message_id=message.message_id,
+                parse_mode="Markdown",
+            )
+        except Exception:
+            await message.reply_text(response, reply_to_message_id=message.message_id)
 
         cooldowns[user_id] = time.time()
         stats["responses_sent"] += 1

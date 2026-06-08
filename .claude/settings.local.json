@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Get-ChildItem -Path \"D:\\\\IMPORTANT\\\\Projects\\\\TelegramAutomation\" -Recurse -Force)",
+      "Bash(Select-Object -Property FullName)",
+      "Bash(Sort-Object FullName)",
+      "Bash(python -c ' *)",
+      "Bash(python3 -c ' *)",
+      "PowerShell(Get-Command *)",
+      "Bash(dir D:\\\\IMPORTANT\\\\Projects\\\\TelegramAutomation\\\\bot\\\\knowledge *)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)"
+    ]
+  }
+}
