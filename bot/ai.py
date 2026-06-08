@@ -1,6 +1,7 @@
 import logging
 import anthropic
-from config import ANTHROPIC_API_KEY, MODEL_NAME, SYSTEM_PROMPT, MAX_TOKENS
+from config import ANTHROPIC_API_KEY, MODEL_NAME, BASE_SYSTEM_PROMPT, MAX_TOKENS
+from router import load_knowledge_for_query
 
 logger = logging.getLogger(__name__)
 
@@ -13,10 +14,13 @@ def ask_claude(user_message: str, conversation_history: list = None) -> str:
         messages.extend(conversation_history[-6:])
     messages.append({"role": "user", "content": user_message})
 
+    knowledge = load_knowledge_for_query(user_message)
+    system_prompt = BASE_SYSTEM_PROMPT + knowledge
+
     try:
         response = client.messages.create(
             model=MODEL_NAME,
-            system=SYSTEM_PROMPT,
+            system=system_prompt,
             messages=messages,
             max_tokens=MAX_TOKENS,
         )
