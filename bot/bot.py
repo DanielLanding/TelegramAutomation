@@ -16,7 +16,7 @@ from flask import Flask, jsonify
 
 from config import (
     TELEGRAM_TOKEN,
-    GROQ_API_KEY,
+    ANTHROPIC_API_KEY,
     ALLOWED_GROUP_IDS,
     COOLDOWN_SECONDS,
     KEYWORDS,
@@ -24,7 +24,7 @@ from config import (
     BOT_NAME,
     MODEL_NAME,
 )
-from ai import ask_openai, check_ai_health
+from ai import ask_claude, check_ai_health
 
 # ──────────────────────────────────────────────
 # Logging
@@ -121,7 +121,7 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
     try:
         history = conversation_history[user_id]
-        response = ask_openai(text, history)
+        response = ask_claude(text, history)
 
         # Atualiza histórico
         history.append({"role": "user", "content": text})
@@ -163,7 +163,7 @@ async def cmd_status(update: Update, context: ContextTypes.DEFAULT_TYPE):
     status_text = (
         f"📊 *Status do {BOT_NAME}*\n\n"
         f"🟢 Bot: Online\n"
-        f"🤖 Modelo: `{MODEL_NAME}` (OpenAI)\n"
+        f"🤖 Modelo: `{MODEL_NAME}` (Anthropic)\n"
         f"⏱ Uptime: {h}h {m}m {s}s\n"
         f"📨 Mensagens recebidas: {stats['messages_received']}\n"
         f"✅ Respostas enviadas: {stats['responses_sent']}\n"
@@ -205,7 +205,7 @@ def api_status():
             "bot": BOT_NAME,
             "online": True,
             "uptime_seconds": int(uptime),
-            "provider": "OpenAI",
+            "provider": "Anthropic",
             "model": MODEL_NAME,
             "stats": stats,
         }
@@ -232,8 +232,8 @@ def run_flask():
 def main():
     if not TELEGRAM_TOKEN:
         raise ValueError("TELEGRAM_TOKEN não configurado no .env")
-    if not GROQ_API_KEY:
-        raise ValueError("GROQ_API_KEY não configurado no .env")
+    if not ANTHROPIC_API_KEY:
+        raise ValueError("ANTHROPIC_API_KEY não configurado no .env")
 
     # Inicia Flask em thread separada
     flask_thread = threading.Thread(target=run_flask, daemon=True)

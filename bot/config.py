@@ -4,8 +4,8 @@ from dotenv import load_dotenv
 load_dotenv()
 
 TELEGRAM_TOKEN  = os.getenv("TELEGRAM_TOKEN", "")
-GROQ_API_KEY    = os.getenv("GROQ_API_KEY", "")
-MODEL_NAME      = os.getenv("MODEL_NAME", "llama-3.3-70b-versatile")
+ANTHROPIC_API_KEY = os.getenv("ANTHROPIC_API_KEY", "")
+MODEL_NAME        = os.getenv("MODEL_NAME", "claude-sonnet-4-6")
 
 # IDs dos grupos autorizados (separados por vírgula). Vazio = responde em todos.
 _allowed = os.getenv("ALLOWED_GROUP_IDS", "")
