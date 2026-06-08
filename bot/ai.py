@@ -24,7 +24,9 @@ def ask_claude(user_message: str, conversation_history: list = None) -> str:
             messages=messages,
             max_tokens=MAX_TOKENS,
         )
-        return response.content[0].text.strip()
+        text = response.content[0].text.strip()
+        text = text.replace("--", ",").replace("—", ",").replace("–", ",")
+        return text
 
     except anthropic.RateLimitError:
         logger.warning("Rate limit atingido na API Claude")
