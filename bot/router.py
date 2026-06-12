@@ -6,6 +6,9 @@ logger = logging.getLogger(__name__)
 
 KNOWLEDGE_DIR = os.path.join(os.path.dirname(__file__), "knowledge")
 
+# Base geral de conhecimento — sempre incluída em toda resposta
+GENERAL_KNOWLEDGE_FILE = os.path.join(os.path.dirname(__file__), "knowledge.txt")
+
 # Sempre incluído em toda resposta — fundamentos do curso
 BASE_FILES = ["00_principios_gerais.txt"]
 
@@ -234,7 +237,8 @@ def route_query(query: str) -> List[str]:
 
 def load_knowledge_for_query(query: str) -> str:
     """Loads and concatenates relevant knowledge files for the given query.
-    Always includes base files (principios_gerais) for foundational context.
+    Always includes the general knowledge file (knowledge.txt) and base files
+    (principios_gerais) for foundational context.
     """
     topic_files = route_query(query)
 
@@ -242,6 +246,13 @@ def load_knowledge_for_query(query: str) -> str:
     all_files = list(dict.fromkeys(BASE_FILES + topic_files))
 
     sections = []
+
+    try:
+        with open(GENERAL_KNOWLEDGE_FILE, "r", encoding="utf-8") as f:
+            sections.append(f.read())
+    except FileNotFoundError:
+        logger.warning("Arquivo de conhecimento geral não encontrado: %s", GENERAL_KNOWLEDGE_FILE)
+
     for filename in all_files:
         filepath = os.path.join(KNOWLEDGE_DIR, filename)
         try:

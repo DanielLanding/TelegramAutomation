@@ -19,7 +19,6 @@ from config import (
     ANTHROPIC_API_KEY,
     ALLOWED_GROUP_IDS,
     COOLDOWN_SECONDS,
-    KEYWORDS,
     STATUS_PORT,
     BOT_NAME,
     MODEL_NAME,
@@ -55,12 +54,16 @@ def is_allowed_group(chat_id: int) -> bool:
     return chat_id in ALLOWED_GROUP_IDS
 
 
-def should_respond(text: str, bot_username: str) -> bool:
-    """Decide se o bot deve responder a uma mensagem."""
-    text_lower = text.lower()
-    mentioned = f"@{bot_username.lower()}" in text_lower
-    has_keyword = any(kw in text_lower for kw in KEYWORDS)
-    return mentioned or has_keyword
+def should_respond(message, bot_username: str) -> bool:
+    """Decide se o bot deve responder: apenas quando mencionado (@bot)
+    ou quando a mensagem é uma resposta direta a uma mensagem do bot."""
+    mentioned = f"@{bot_username.lower()}" in message.text.lower()
+    is_reply_to_bot = (
+        message.reply_to_message is not None
+        and message.reply_to_message.from_user is not None
+        and message.reply_to_message.from_user.username == bot_username
+    )
+    return mentioned or is_reply_to_bot
 
 
 def is_on_cooldown(user_id: int) -> bool:
@@ -102,8 +105,8 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
         logger.info("Chat %s não está em ALLOWED_GROUP_IDS — ignorando", message.chat_id)
         return
 
-    if not is_private and not should_respond(text, bot_username):
-        logger.info("Sem keyword/menção na msg de %s — ignorando", user_display)
+    if not is_private and not should_respond(message, bot_username):
+        logger.info("Sem menção na msg de %s — ignorando", user_display)
         return
 
     if is_on_cooldown(user_id):
@@ -155,8 +158,8 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
 async def cmd_start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(
         f"👋 Olá! Sou o {BOT_NAME}, seu assistente de suporte do curso.\n\n"
-        "Me mencione ou envie uma dúvida com palavras como *como*, *erro*, *ajuda* "
-        "e responderei automaticamente.\n\n"
+        "Me mencione (@) ou responda a uma mensagem minha "
+        "e responderei sua dúvida.\n\n"
         "Use /status para ver meu estado atual.",
         parse_mode="Markdown",
     )
