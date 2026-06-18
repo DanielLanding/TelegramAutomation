@@ -102,6 +102,9 @@ TOPICS = [
             "feeling do corretor", "vivência genérica",
             "persiana", "rampa da garagem", "posição solar",
             "para quem é esse imóvel", "o imóvel ideal para",
+            "desenvolver feeling", "desenvolver um feeling", "criar feeling",
+            "montar o feeling", "me ajuda com o feeling", "fazer o feeling",
+            "desenvolver o feeling", "barbada",
         ],
     },
     {

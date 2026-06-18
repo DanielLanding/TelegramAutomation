@@ -9,7 +9,8 @@
       "PowerShell(Get-Command *)",
       "Bash(dir D:\\\\IMPORTANT\\\\Projects\\\\TelegramAutomation\\\\bot\\\\knowledge *)",
       "Bash(git add *)",
-      "Bash(git commit -m ' *)"
+      "Bash(git commit -m ' *)",
+      "Bash(python -c \"import router; print\\('OK'\\); print\\(router.route_query\\('me ajuda a desenvolver um feeling pra um apartamento em Piçarras'\\)\\)\")"
     ]
   }
 }
